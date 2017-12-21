@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: termscu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC7.tmp" with contents
+[
+netapi32.lib  wsock32.lib  ..\..\..\lib\Debug\ofstd.lib  ..\..\..\lib\Debug\dcmdata.lib  ..\..\..\lib\Debug\dcmnet.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /version:0.0 /stack:0x989680 /subsystem:console /incremental:yes /pdb:"..\..\..\bin\Debug/termscu.pdb" /debug /machine:I386 /out:"..\..\..\bin\Debug/termscu.exe" /implib:"..\..\..\bin\Debug\termscu.lib" /pdbtype:sept /libpath:"..\.\Debug" /libpath:".." /libpath:"..\..\ofstd\.\Debug" /libpath:"..\..\ofstd" /libpath:"..\..\dcmdata\.\Debug" /libpath:"..\..\dcmdata" /libpath:"..\..\dcmtls\.\Debug" /libpath:"..\..\dcmtls" /libpath:"..\..\..\lib\Debug\.\Debug" /libpath:"..\..\..\lib\Debug" /IGNORE:4089             /machine:X86 
+".\Debug\termscu.obj"
+"\DcmTK\dcmtk-3.5.4\lib\Debug\ofstd.lib"
+"\DcmTK\dcmtk-3.5.4\lib\Debug\dcmdata.lib"
+"\DcmTK\dcmtk-3.5.4\lib\Debug\dcmnet.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC7.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+termscu.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,658 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Tps.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,2,0,1160
+ PRODUCTVERSION 2,2,0,1160
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Tps DLL\0"
+            VALUE "FileVersion", "2, 2, 0, 1160\0"
+            VALUE "InternalName", "Tps\0"
+            VALUE "LegalCopyright", "∞Ê»®À˘”– (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Tps.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Tps Dynamic Link Library\0"
+            VALUE "ProductVersion", "2, 2, 0, 1160\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TRACER_PROPERTY DIALOG DISCARDABLE  0, 0, 214, 238
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tracer Property:"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,156,216,50,14
+    CONTROL         "",IDC_TRACERPROP_PLACEHODER,"Static",SS_BLACKFRAME | 
+                    NOT WS_VISIBLE,7,7,197,203
+END
+
+IDD_PROBE_PROPERTY DIALOG DISCARDABLE  0, 0, 214, 238
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Probe Property:"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,156,216,50,14
+    CONTROL         "",IDC_PROBEPROP_PLACEHODER,"Static",SS_BLACKFRAME | NOT 
+                    WS_VISIBLE,7,7,197,203
+END
+
+IDD_MODAL_PROPERTY DIALOG DISCARDABLE  0, 0, 214, 238
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modal Property:"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,156,216,50,14
+    CONTROL         "",IDC_MODALPROP_PLACEHODER,"Static",SS_BLACKFRAME | NOT 
+                    WS_VISIBLE,7,7,197,203
+END
+
+IDD_IMAGE_PROPERTY DIALOG DISCARDABLE  0, 0, 214, 238
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Image Property:"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,156,216,50,14
+    CONTROL         "",IDC_IMAGEPROP_PLACEHODER,"Static",SS_BLACKFRAME | NOT 
+                    WS_VISIBLE,7,7,197,203
+END
+
+IDD_IMAGE_PROCESSING DIALOG DISCARDABLE  0, 0, 254, 174
+STYLE WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Image Processing:"
+FONT 8, "Tahoma"
+BEGIN
+    CONTROL         "",IDC_IMAGE_BROW_DISP,"Static",SS_BLACKFRAME,0,0,157,
+                    174
+    CONTROL         "",IDC_IMAGE_BROW_CTRL,"Static",SS_BLACKFRAME,164,0,86,
+                    167
+END
+
+IDD_IMAGE_BROWSER DIALOG DISCARDABLE  0, 0, 254, 174
+STYLE WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+CAPTION "Image Browser"
+FONT 8, "Tahoma"
+BEGIN
+    CONTROL         "",IDC_IMAGE_BROW_DISP,"Static",SS_BLACKFRAME,0,0,254,
+                    174
+    CONTROL         "",IDC_IMAGE_BROW_CTRL,"Static",SS_BLACKFRAME | NOT 
+                    WS_VISIBLE,115,78,28,10
+END
+
+IDD_DLG_EVALUATE DIALOG DISCARDABLE  0, 0, 318, 274
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "Evaluate:"
+FONT 8, "Tahoma"
+BEGIN
+    PUSHBUTTON      "OK",IDC_BNT_EVA_RETURN,257,248,50,14
+    CONTROL         "List1",IDC_LIST_PROBE,"SysListView32",LVS_LIST | 
+                    LVS_SHOWSELALWAYS | LVS_NOCOLUMNHEADER | WS_BORDER | 
+                    WS_TABSTOP,9,16,104,105
+    CONTROL         "List1",IDC_LIST_MODAL,"SysListView32",LVS_LIST | 
+                    LVS_NOCOLUMNHEADER | WS_BORDER | WS_TABSTOP,9,146,104,95
+    LTEXT           "Probe",IDC_STATIC,12,4,42,9
+    LTEXT           "Modal",IDC_STATIC,12,134,42,9
+    PUSHBUTTON      "Get Volume",IDC_BUTTON_PROBE_VOLUME,116,66,50,14
+    PUSHBUTTON      "Get Volume",IDC_BUTTON_MODAL_VOLUME,116,190,50,14
+    EDITTEXT        IDC_EDIT_VOLUME_RESULT,169,16,138,225,ES_MULTILINE | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "Refresh List",IDC_BNT_EVA_REFRESHLIST,194,248,58,14
+    LTEXT           "Result",IDC_STATIC,172,5,42,9
+    EDITTEXT        IDC_EDIT_DISPLAY_INDEX,129,38,24,13,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+END
+
+IDD_DIALOG_PROBE_CONTROL DIALOG DISCARDABLE  0, 0, 140, 61
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "Tahoma"
+BEGIN
+    CONTROL         "",IDC_TOOL_REGION,"Static",SS_GRAYRECT | SS_SUNKEN | 
+                    WS_BORDER,1,15,135,43
+    CONTROL         "Tip",IDC_RADIO_TIP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,9,4,22,10
+    CONTROL         "Tail",IDC_RADIO_END,"Button",BS_AUTORADIOBUTTON,39,4,23,
+                    10
+    CONTROL         "None",IDC_RADIO_NONE,"Button",BS_AUTORADIOBUTTON,68,4,
+                    35,10
+END
+
+IDD_DIALOG_OPTION DIALOG DISCARDABLE  0, 0, 285, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options:"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,238,136,42,14
+    CONTROL         "Tree1",IDC_LIST_OPTIONS,"SysTreeView32",WS_BORDER | 
+                    WS_TABSTOP,2,2,93,132
+    CONTROL         "",IDC_WORKSPACE,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,
+                    97,2,186,132
+END
+
+IDD_DIALOG_DISPLAY DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "Tahoma"
+BEGIN
+END
+
+IDD_DIALOG_CONTROL DIALOG DISCARDABLE  0, 0, 193, 306
+STYLE WS_POPUP
+FONT 8, "Tahoma"
+BEGIN
+    CONTROL         "Tree2",IDC_PROP3D_LIST,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | 
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,0,40,129,221
+    CONTROL         "",IDC_BMP_LOADIMAGE,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    2,14,23,23
+    PUSHBUTTON      "",IDC_BMP_SAVEIMAGE,26,14,23,23
+    PUSHBUTTON      "",IDC_BMP_CREATETOOL,50,14,23,23
+    PUSHBUTTON      "",IDC_BMP_EVALUATE,74,14,23,23
+    PUSHBUTTON      "&File",IDC_BUTTON_MENU_FILE,2,0,26,13
+    PUSHBUTTON      "&Help",IDC_BUTTON_MENU_HELP,28,0,26,13
+END
+
+IDD_DIALOG_AUTO_TRACE DIALOGEX 0, 0, 137, 36
+STYLE WS_CHILD
+FONT 8, "Tahoma", 0, 0, 0x1
+BEGIN
+    CONTROL         "Slider1",IDC_SLIDER_GREY,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_DISABLED | WS_TABSTOP,14,1,117,16,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Confir&m",IDC_BUTTON_APPLY,95,19,35,12
+    PUSHBUTTON      "&New",IDC_BUTTON_NEW,14,19,35,12
+    PUSHBUTTON      "&Cancel",IDC_BUTTON_DELETE,55,19,35,12
+    CONTROL         "Auto",IDC_CHECK_AUTO,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,3,3,9,12
+END
+
+IDD_DIALOG_3DVIEW DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+    PUSHBUTTON      "",IDC_BUTTON_FIRST_IMAGE,23,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_LAST_IMAGE,87,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_PRE_IMAGE,47,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_NEXT_IMAGE,67,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_SELECT_IMAGE,109,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_TOPWND_SHOW,130,7,16,11
+END
+
+IDD_DIALOG_2DVIEW DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+    PUSHBUTTON      "",IDC_BUTTON_FIRST_IMAGE,23,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_LAST_IMAGE,87,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_PRE_IMAGE,47,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_NEXT_IMAGE,67,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_3D_IMAGE,109,7,16,11
+    PUSHBUTTON      "",IDC_BUTTON_TOPWND_SHOW,130,7,16,11
+END
+
+IDD_DIALOG_MPR DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_CHILD
+FONT 8, "Tahoma"
+BEGIN
+    PUSHBUTTON      "",IDC_BUTTON_3D,42,50,15,10
+END
+
+IDD_DIALOG_PROBE_CONTROL1 DIALOG DISCARDABLE  0, 0, 198, 105
+STYLE WS_CHILD | WS_VISIBLE
+FONT 8, "Tahoma"
+BEGIN
+    ICON            IDI_TOOL_TRANSFORM,IDC_PROBE_POSITION,65,81,21,20
+    ICON            IDI_TOOL_ROTATE,IDC_PROBE_ROTATE,89,81,21,20
+    CONTROL         "",IDC_ROTATE_BOX,"Static",SS_BLACKFRAME,88,80,23,20
+    CONTROL         "",IDC_POSITION_BOX,"Static",SS_BLACKFRAME | NOT 
+                    WS_VISIBLE,64,80,23,20
+    CONTROL         "",IDC_TOOL_REGION,"Static",SS_GRAYRECT | SS_SUNKEN | 
+                    WS_BORDER,1,15,135,43
+    CONTROL         "X",IDC_RADIO_X,"Button",BS_AUTORADIOBUTTON | WS_GROUP,3,
+                    85,17,9
+    CONTROL         "Y",IDC_RADIO_Y,"Button",BS_AUTORADIOBUTTON,24,85,17,9
+    CONTROL         "Z",IDC_RADIO_Z,"Button",BS_AUTORADIOBUTTON,42,85,17,9
+    CONTROL         "Tip",IDC_RADIO_TIP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,9,4,22,10
+    CONTROL         "Tail",IDC_RADIO_END,"Button",BS_AUTORADIOBUTTON,39,4,23,
+                    10
+    CONTROL         "None",IDC_RADIO_NONE,"Button",BS_AUTORADIOBUTTON,68,4,
+                    35,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TRACER_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_PROBE_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_MODAL_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_IMAGE_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_DLG_EVALUATE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 307
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_DIALOG_PROBE_CONTROL, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 138
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_DIALOG_DISPLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_DIALOG_CONTROL, DIALOG
+    BEGIN
+        RIGHTMARGIN, 190
+        BOTTOMMARGIN, 305
+    END
+
+    IDD_DIALOG_AUTO_TRACE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 135
+        BOTTOMMARGIN, 34
+    END
+
+    IDD_DIALOG_3DVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_DIALOG_2DVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_DIALOG_MPR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_DIALOG_PROBE_CONTROL1, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+        RIGHTMARGIN, 196
+        BOTTOMMARGIN, 103
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New",                         IDR_POPUPMENU_FILE_NEW
+        MENUITEM "Open",                        IDR_POPUPMENU_FILE_OPEN
+        MENUITEM "Save",                        IDR_POPUPMENU_FILE_SAVE
+        MENUITEM "Save As",                     IDR_POPUPMENU_FILE_SAVEAS
+    END
+END
+
+IDR_POPUPMENU_MODAL MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "Visible",                     IDR_POPUPMENU_MODAL_VISIBLE
+        MENUITEM "Delete",                      IDR_POPUPMENU_MODAL_DELETE
+        MENUITEM "Rename",                      IDR_POPUPMENU_MODAL_RENAME
+        MENUITEM SEPARATOR
+        MENUITEM "Property",                    IDR_POPUPMENU_MODAL_PROP
+    END
+END
+
+IDR_POPUPMENU_PROBE MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "Delete",                      IDR_POPMENU_PROBE_DELETE
+        MENUITEM "Ice Ball",                    IDR_POPMENU_PROBE_BALL_VISIBLE
+
+        MENUITEM "Intersection Line",           IDR_POPMENU_PROBE_LINE_VISIBLE
+
+        MENUITEM "Property",                    IDR_POPMENU_PROBE_PROP
+        MENUITEM SEPARATOR
+        MENUITEM "Set UCS",                     IDR_POPMENU_PROBE_UCS
+        MENUITEM "Copy UCS",                    IDR_POPMENU_PROBE_COPYUCS
+        MENUITEM SEPARATOR
+        MENUITEM "MPR",                         IDR_POPMENU_PROBE_MPR
+    END
+END
+
+IDR_POPUPMENU_VIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "Display in 2D+3D Average",    IDR_POPMENU_2DVIEW_DISPLAYAVERAGE
+
+        MENUITEM "Display in 2D Top",           IDR_POPUPMENU_2DVIEW_DISPLAY2DTOP
+
+        MENUITEM "Maximize",                    IDR_POPUPMENU_DISPLAY_MAX
+        MENUITEM SEPARATOR
+        POPUP "Measure"
+        BEGIN
+            MENUITEM "Distance",                    IDR_POPUPMENU_MEASURE_DIS
+
+            MENUITEM "Angle",                       IDR_POPUPMENU_MEASURE_ANGLE
+
+        END
+        MENUITEM "Display Measure Result",      IDR_POPUPMENU_DISPLAY_DISPLAYMEASURE
+
+        MENUITEM "Delete Measure Result",       IDR_POPUPMENU_DISPLAY_DELETEMEASURE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Reset Window Level",          IDR_POPUPMENU_DISPLAY_RESETWINDOWLEVEL
+
+        MENUITEM "Reset View",                  IDR_POPUPMENU_DISPLAY_2DRESETVIEW
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Grey Surface",               IDR_POPUPMENU_DISPLAY_CONTOUR
+
+        MENUITEM "3D &Segment",                 IDR_POPUPMENU_DISPLAY_SEGENT
+        MENUITEM "&Volume Render",              IDR_POPUPMENU_DISPLAY_VOLUME
+        MENUITEM SEPARATOR
+        MENUITEM "MPR",                         IDR_POPUPMENU_DISPLAY_MPR
+    END
+END
+
+IDR_POPUPMENU_VIEW3D MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        MENUITEM "Display in 2D+3D Average",    IDR_POPMENU_2DVIEW_DISPLAYAVERAGE
+
+        MENUITEM "Display in 2D Top",           IDR_POPUPMENU_2DVIEW_DISPLAY2DTOP
+
+        MENUITEM "Maximize",                    IDR_POPUPMENU_DISPLAY_MAX
+        MENUITEM SEPARATOR
+        MENUITEM "Reset View",                  IDR_POPUPMENU_DISPLAY_RETCAMERA
+
+        MENUITEM "Background Color",            IDR_POPUPMENU_VIEW3D_BKCOLOR
+        MENUITEM SEPARATOR
+        MENUITEM "No.1 Image",                  IDR_POPUPMENU_VIEW3D_DISPIMAGE1
+
+        MENUITEM "No.2 Image",                  IDR_POPUPMENU_VIEW3D_DISPIMAGE2
+
+        MENUITEM "No.3 Image",                  IDR_POPUPMENU_VIEW3D_DISPIMAGE3
+
+        MENUITEM SEPARATOR
+        MENUITEM "Probe Tip Distance",          IDR_POPUPMENU_MEASURE_DIS_3D
+        MENUITEM "Fly To...",                   IDR_POPUPMENU_VIEW3D_FLYTO
+    END
+END
+
+IDR_POPUPMENU_ZONE MENU DISCARDABLE 
+BEGIN
+    POPUP "main"
+    BEGIN
+        MENUITEM "Delete",                      IDR_POPMENU_ZONE_DELETE
+        MENUITEM "Property",                    IDR_POPMENU_ZONE_PROP
+        MENUITEM SEPARATOR
+        MENUITEM "Track",                       IDR_POPMENU_ZONE_TRACKPOSITION
+
+    END
+END
+
+IDR_POPUPMENU_ZONEGROUP MENU DISCARDABLE 
+BEGIN
+    POPUP "main"
+    BEGIN
+        MENUITEM "New",                         IDR_POPMENU_ZONEGROUP_NEW
+        MENUITEM "Rename",                      IDR_POPMENU_ZONEGROUP_RENAME
+        MENUITEM "Delete",                      IDR_POPMENU_ZONEGROUP_DELETE
+        MENUITEM "Set Color",                   IDR_POPMENU_ZONEGROUP_SETCOLOR
+
+        MENUITEM "Default",                     IDR_POPMENU_ZONEGROUP_SETDEFAULT
+
+        MENUITEM SEPARATOR
+        MENUITEM "Tumor",                       IDR_POPMENU_ZONEGROUP_TUMOR
+        MENUITEM "Organ",                       IDR_POPMENU_ZONEGROUP_ORGAN
+        MENUITEM SEPARATOR
+        MENUITEM "Create Modal",                IDR_POPMENU_ZONEGROUP_CREATEMODAL
+
+    END
+END
+
+IDR_POPUPMENU_MPR_VIEW MENU DISCARDABLE 
+BEGIN
+    POPUP "Main"
+    BEGIN
+        POPUP "Measure"
+        BEGIN
+            MENUITEM "Distance",                    IDR_POPUPMENU_MEASURE_DIS
+
+            MENUITEM "Angle",                       IDR_POPUPMENU_MEASURE_ANGLE
+
+        END
+        MENUITEM "Display Measure Result",      IDR_POPUPMENU_DISPLAY_DISPLAYMEASURE
+
+        MENUITEM "Delete Measure Result",       IDR_POPUPMENU_DISPLAY_DELETEMEASURE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Reset Window Level",          IDR_POPUPMENU_DISPLAY_RESETWINDOWLEVEL
+
+        MENUITEM "Reset View",                  IDR_POPUPMENU_DISPLAY_2DRESETVIEW
+
+        MENUITEM SEPARATOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\TPWare.ico"
+IDI_LEDOFF              ICON    DISCARDABLE     "res\\LedOff.ico"
+IDI_LEDON               ICON    DISCARDABLE     "res\\LedOn.ico"
+IDI_NEXT_IMAGE          ICON    DISCARDABLE     "res\\ico00006.ico"
+IDI_PRE_IMAGE           ICON    DISCARDABLE     "res\\ico00005.ico"
+IDI_RIGHTANDLEFT        ICON    DISCARDABLE     "res\\ico00007.ico"
+IDI_TOOL_FORWARD        ICON    DISCARDABLE     "res\\Core IP theme Icon 14.ico"
+IDI_TOOL_ROTATE         ICON    DISCARDABLE     "res\\bluewhales 047.ico"
+IDI_TOOL_TRANSFORM      ICON    DISCARDABLE     "res\\bluewhales 039.ico"
+IDI_TRACE_FLAG          ICON    DISCARDABLE     "res\\ico00003.ico"
+IDI_TRACE_FLAG1         ICON    DISCARDABLE     "res\\ico00002.ico"
+IDI_TRACER_ADD          ICON    DISCARDABLE     "res\\icon1.ico"
+IDI_TRACER_CLEAR        ICON    DISCARDABLE     "res\\ico00001.ico"
+IDI_UP                  ICON    DISCARDABLE     "res\\ico00008.ico"
+IDI_UPANDDOWN           ICON    DISCARDABLE     "res\\ico00004.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_BOWEI        BITMAP  DISCARDABLE     "res\\bowei.bmp"
+IDB_BITMAP_CREATEMODAL  BITMAP  DISCARDABLE     "res\\030307system669.bmp"
+IDB_BITMAP_EVALUATE     BITMAP  DISCARDABLE     "res\\030307system1009.bmp"
+IDB_BITMAP_IMRIFIGURE   BITMAP  DISCARDABLE     "res\\pro3.bmp"
+IDB_BITMAP_LI           BITMAP  DISCARDABLE     "res\\li.bmp"
+IDB_BITMAP_LIU          BITMAP  DISCARDABLE     "res\\liu.bmp"
+IDB_BITMAP_MEASURE      BITMAP  DISCARDABLE     "res\\measure.bmp"
+IDB_BITMAP_MEASURE2     BITMAP  DISCARDABLE     "res\\MEASURE2.bmp"
+IDB_BITMAP_NING         BITMAP  DISCARDABLE     "res\\ning.bmp"
+IDB_BITMAP_OPENIMAGE    BITMAP  DISCARDABLE     "res\\030307system058.bmp"
+IDB_BITMAP_SAVEIMAGE    BITMAP  DISCARDABLE     "res\\030307system233.bmp"
+IDB_BITMAP_TOOL         BITMAP  DISCARDABLE     "res\\030307system276.bmp"
+IDB_BITMAP_WEI          BITMAP  DISCARDABLE     "res\\wei.bmp"
+IDB_BMP_BACKGROUND      BITMAP  DISCARDABLE     "res\\019.bmp"
+IDB_OPTIONS             BITMAP  DISCARDABLE     "res\\PropertyIcons.bmp"
+IDB_TOOL_BACKGROUND2    BITMAP  DISCARDABLE     "res\\bg.bmp"
+IDB_TOOL_TREE_IMAGE     BITMAP  DISCARDABLE     "res\\img_restree.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Tps.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

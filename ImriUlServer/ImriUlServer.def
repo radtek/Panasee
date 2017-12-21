@@ -1,0 +1,7 @@
+; ImriUlServer.def : Declares the module parameters for the DLL.
+
+; LIBRARY      "ImriUlServer"
+DESCRIPTION  'ImriUlServer Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

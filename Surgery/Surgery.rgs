@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{8C86E242-E4BF-4EDD-B52F-7ED4C09D40C5} = s 'Surgery'
+		'Surgery.EXE'
+		{
+			val AppID = s {8C86E242-E4BF-4EDD-B52F-7ED4C09D40C5}
+		}
+	}
+}

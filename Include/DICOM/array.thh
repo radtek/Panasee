@@ -1,0 +1,66 @@
+
+#ifndef __ARRAY_THH_
+#define __ARRAY_THH_
+template <class	DATATYPE>class	DataLink
+{
+public:
+	DATATYPE			Data;
+	DataLink<DATATYPE>	*prev, *next;
+	DataLink(DataLink<DATATYPE> *p, DataLink<DATATYPE> *n){ prev = p; next = n; };
+	DataLink(){ prev = NULL; next = NULL; };
+};
+
+template<class	DATATYPE> class	Array
+{
+public:
+	DataLink<DATATYPE>	*first;	
+	DataLink<DATATYPE>	*last;	
+	DataLink<DATATYPE>	*LastAccess;
+	unsigned	int		 LastAccessNumber;
+	unsigned	int		 ArraySize;
+	public:
+	UINT			ClearType;
+	DATATYPE&	    Add(DATATYPE	&);
+	DATATYPE&		Get(unsigned int);
+	BOOL			RemoveAll()    //add by peak
+	{
+		if(first==NULL)
+		{
+			return TRUE;
+		}
+		DataLink<DATATYPE> *pToBeDelete=first;
+		DataLink<DATATYPE> *pTmp;
+		for(unsigned	int i=0;i<ArraySize;i++)
+		{
+			pTmp=pToBeDelete->next;
+			delete pToBeDelete;
+			pToBeDelete=pTmp;
+		}
+		Clear();
+		return TRUE;
+	}
+	BOOL RemoveAt(unsigned int);
+	BOOL Clear ()
+	{
+		first = last = LastAccess = NULL;
+		LastAccessNumber = 0;
+		ArraySize = 0;
+		return ( TRUE );
+	}
+#ifdef	MAC
+	DATATYPE&	operator[]	(unsigned int	Index){ return(Get(Index)); };
+	unsigned	int	GetSize(){ return(ArraySize); };
+#else
+	inline	DATATYPE&	operator[]	(unsigned int	Index){ return(Get(Index)); };
+	inline	unsigned	int	GetSize(){ return(ArraySize); };
+#endif
+	Array(){ ArraySize = 0; first = NULL; last = NULL; LastAccess = NULL; LastAccessNumber = 0; ClearType = 1; };
+	Array(UINT);
+#ifdef	MAC
+	~Array();
+#else
+	virtual		~Array();
+#endif
+	void operator=	(Array<DATATYPE> &array){ first = array.first; last = array.last; ArraySize = array.ArraySize; ClearType = FALSE; };
+};
+#endif

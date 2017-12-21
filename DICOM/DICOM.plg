@@ -1,0 +1,151 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DICOM - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSP238.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "..\include" /D "NDEBUG" /D "WIN32" /D "_LIB" /D "JAS_WIN_MSVC_BUILD" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\aaac.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\aarj.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\aarq.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\buffer.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\CABS.CXX"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\CDICOMDIR.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\COMP.CPP"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\DC3.Dictionary.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\dcmprint.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\deivr.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\DICOMDIR.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\dimsec.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\dimsen.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\endian.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\filepdu.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\IODBASE.CPP"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\MyQueryRetrieve.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\MyQueryRetrievePDU.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\pdata.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\pdu.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\PrintImage.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\printsop.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\QRParam.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\qrsop.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\Query.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\QueryInformation.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\RetrieveImage.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\rtc.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\safemem.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\socket.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\storage.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\trnsyn.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\TVR.CXX"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\uniq.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\util.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\verify.cxx"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI\DICOM\VRREF.CXX"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSP238.tmp" 
+Creating temporary file "C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSP239.tmp" with contents
+[
+/nologo /out:"Release\DICOM.lib" 
+".\Release\aaac.obj"
+".\Release\aarj.obj"
+".\Release\aarq.obj"
+".\Release\buffer.obj"
+".\Release\CABS.OBJ"
+".\Release\CDICOMDIR.obj"
+".\Release\COMP.OBJ"
+".\Release\DC3.Dictionary.obj"
+".\Release\dcmprint.obj"
+".\Release\deivr.obj"
+".\Release\DICOMDIR.obj"
+".\Release\dimsec.obj"
+".\Release\dimsen.obj"
+".\Release\endian.obj"
+".\Release\filepdu.obj"
+".\Release\IODBASE.OBJ"
+".\Release\MyQueryRetrieve.obj"
+".\Release\MyQueryRetrievePDU.obj"
+".\Release\pdata.obj"
+".\Release\pdu.obj"
+".\Release\PrintImage.obj"
+".\Release\printsop.obj"
+".\Release\QRParam.obj"
+".\Release\qrsop.obj"
+".\Release\Query.obj"
+".\Release\QueryInformation.obj"
+".\Release\RetrieveImage.obj"
+".\Release\rtc.obj"
+".\Release\safemem.obj"
+".\Release\socket.obj"
+".\Release\storage.obj"
+".\Release\trnsyn.obj"
+".\Release\TVR.OBJ"
+".\Release\uniq.obj"
+".\Release\util.obj"
+".\Release\verify.obj"
+".\Release\VRREF.OBJ"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSP239.tmp"
+<h3>Output Window</h3>
+Compiling...
+aaac.cxx
+aarj.cxx
+aarq.cxx
+buffer.cxx
+CABS.CXX
+CDICOMDIR.cpp
+COMP.CPP
+DC3.Dictionary.cpp
+dcmprint.cpp
+deivr.cxx
+DICOMDIR.cpp
+dimsec.cxx
+dimsen.cxx
+endian.cxx
+filepdu.cxx
+IODBASE.CPP
+MyQueryRetrieve.cpp
+MyQueryRetrievePDU.cpp
+pdata.cxx
+pdu.cxx
+Generating Code...
+Compiling...
+PrintImage.cpp
+printsop.cxx
+QRParam.cpp
+qrsop.cxx
+Query.cpp
+QueryInformation.cpp
+RetrieveImage.cpp
+rtc.cxx
+safemem.cxx
+socket.cxx
+storage.cxx
+trnsyn.cxx
+TVR.CXX
+uniq.cxx
+util.cxx
+verify.cxx
+VRREF.CXX
+Generating Code...
+Creating library...
+Creating temporary file "C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSP23A.bat" with contents
+[
+@echo off
+copy .\Release\DICOM.lib ..\LibR\.
+]
+Creating command line "C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSP23A.bat"
+
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+DICOM.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,7 @@
+; Tps.def : Declares the module parameters for the DLL.
+
+LIBRARY      "Tps"
+DESCRIPTION  'Tps Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

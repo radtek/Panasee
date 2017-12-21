@@ -1,0 +1,4 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by Surgery.rc
+//
+#define HIDC_CALI_BASE                  0x80930428    // IDD_DLG_PRE_SURGERY_CALI [Chinese (P.R.C.)]

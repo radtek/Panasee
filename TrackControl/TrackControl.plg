@@ -1,0 +1,91 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TrackControl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/TrackControl.res" /d "NDEBUG" /d "_AFXDLL" "E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\TrackControl.rc"" 
+Creating temporary file "C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSPEC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Comm32.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\CommandConstruction.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\CommandHandling.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\ComPortTimeout.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\INIFileRW.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\SystemCRC.cpp"
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\TrackControl.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSPEC.tmp" 
+Creating temporary file "C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSPED.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /Fp"Release/TrackControl.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSPED.tmp" 
+Creating temporary file "C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSPEE.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/TrackControl.pdb" /machine:I386 /def:".\TrackControl.def" /out:"./Release/TrackControl.dll" /implib:"Release/TrackControl.lib" 
+".\Release\Comm32.obj"
+".\Release\CommandConstruction.obj"
+".\Release\CommandHandling.obj"
+".\Release\ComPortTimeout.obj"
+".\Release\Conversions.obj"
+".\Release\INIFileRW.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemCRC.obj"
+".\Release\TrackControl.obj"
+".\Release\TrackControl.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSPEE.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Comm32.cpp
+CommandConstruction.cpp
+CommandHandling.cpp
+ComPortTimeout.cpp
+Conversions.cpp
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(370) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(371) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(372) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(374) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(375) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(376) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(406) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(407) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(408) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(413) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(418) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(449) : warning C4305: '*=' : truncation from 'const double' to 'float'
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(450) : warning C4305: '*=' : truncation from 'const double' to 'float'
+E:\NDT\iMRI\Navi-I\MyOwnDev\PanaseeI1.3\Work\TrackControl\Conversions.cpp(451) : warning C4305: '*=' : truncation from 'const double' to 'float'
+INIFileRW.cpp
+SystemCRC.cpp
+TrackControl.cpp
+Generating Code...
+Linking...
+   Creating library Release/TrackControl.lib and object Release/TrackControl.exp
+Creating temporary file "C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSPF2.bat" with contents
+[
+@echo off
+copy          .\Release\TrackControl.Dll          ..\Release\
+copy          .\Release\TrackControl.lib          ..\LibR\
+]
+Creating command line "C:\DOCUME~1\LIUHUA~1\LOCALS~1\Temp\RSPF2.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+TrackControl.dll - 0 error(s), 14 warning(s)
+</pre>
+</body>
+</html>

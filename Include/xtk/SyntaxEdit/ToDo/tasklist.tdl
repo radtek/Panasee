@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<TODOLIST FILEFORMAT="8" PROJECTNAME="" NEXTUNIQUEID="2" EARLIESTDUEDATE="0.00000000" FILEVERSION="3" LASTMODIFIED="2007-10-02"><TASK PRIORITYCOLOR="57630" STARTDATESTRING="01.10.2007" RISK="0" LASTMODSTRING="02.10.2007 (19:55:11)" TEXTWEBCOLOR="#808080" PRIORITY="5" CALCPERCENTDONE="100" LASTMOD="39357.82998843" TEXTCOLOR="8421504" CREATIONDATESTRING="01.10.2007" TITLE="Search Behavior Incorrect" CREATIONDATE="39356.00000000" COMMENTSTYPE="PLAIN_TEXT" COMMENTS="1. Search and replace text by pressing ( Ctrl+H ) then close the dialog so there is a history in the auto complete drop down(s).
+
+2. Close Search and Replace dialog.
+
+3. Search for a word using ( Ctrl+F ).
+
+4. Press the enter key, this will replace text same as ( Ctrl+H ) instead of searching for next string." PRIORITYWEBCOLOR="#1EE100" ID="1" PERCENTDONE="100" STARTDATE="39356.00000000" DONEDATESTRING="02.10.2007" DONEDATE="39357.00000000" POS="1"/></TODOLIST>

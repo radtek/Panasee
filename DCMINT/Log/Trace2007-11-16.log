@@ -1,0 +1,6 @@
+[2007-11-16 09:29:32] [Default Rotate_flip param] [stID:001938; seID:1] [  OnChangeImagePlane] [An: 90.000000; VF:0; HF:0]
+[2007-11-16 09:29:32] [        Create New Series] [stID:001938; seID:1] [   GetSeriesViewData] [An: 89.999898; VF:0; HF:0]
+[2007-11-16 09:29:32] [     Rotate or Flip Image] [stID:001938; seID:1] [       RotateAndFlip] [An: 89.999898; VF:0; HF:0]
+[2007-11-16 09:30:52] [Default Rotate_flip param] [stID:001937; seID:1] [  OnChangeImagePlane] [An: 90.000000; VF:0; HF:0]
+[2007-11-16 09:30:52] [        Create New Series] [stID:001937; seID:1] [   GetSeriesViewData] [An: 89.999898; VF:0; HF:0]
+[2007-11-16 09:30:52] [     Rotate or Flip Image] [stID:001937; seID:1] [       RotateAndFlip] [An: 89.999898; VF:0; HF:0]

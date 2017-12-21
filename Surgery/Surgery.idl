@@ -1,0 +1,19 @@
+
+	// Surgery.idl : IDL source for Surgery.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (Surgery.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(8F7D6FEA-AFB3-4944-839E-C020211DE3A5),
+	version(1.0),
+	helpstring("Surgery 1.0 Type Library")
+]
+library SurgeryLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

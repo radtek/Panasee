@@ -1,0 +1,22 @@
+
+
+
+template	<class	DATATYPE>
+class	PQueue	:
+	public	Array<DATATYPE>
+	{
+	DATATYPE		dt;
+	public:
+		DATATYPE	&	Push(DATATYPE &);
+		DATATYPE	&	Pop();
+	};
+
+template	<class	DATATYPE>
+class	PQueueOfPtr	:
+	public	Array<DATATYPE>
+	{
+	DATATYPE	dt;
+	public:
+		DATATYPE	&	Push(DATATYPE	&);
+		DATATYPE	&	Pop();
+	};

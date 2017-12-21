@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tracker - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/Tracker.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Software\PANASEE2.3\Tracker\NDIEMHandler.cpp"
+"D:\Software\PANASEE2.3\Tracker\NDIOpticHandler.cpp"
+"D:\Software\PANASEE2.3\Tracker\TrackerHandler.cpp"
+"D:\Software\PANASEE2.3\Tracker\TrackerManager.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF4.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.bat" with contents
+[
+@echo off
+..\vcVersion Tracker
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF5.bat"
+Compiling...
+NDIEMHandler.cpp
+NDIOpticHandler.cpp
+TrackerHandler.cpp
+TrackerManager.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF6.tmp" with contents
+[
+triMathD.lib TrackControlD.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/TrackerD.pdb" /debug /machine:I386 /out:"Debug/TrackerD.dll" /implib:"Debug/TrackerD.lib" /pdbtype:sept /libpath:"..\libD" 
+.\Debug\ConfigMgr.obj
+.\Debug\NDIEMHandler.obj
+.\Debug\NDIOpticHandler.obj
+.\Debug\StdAfx.obj
+.\Debug\Tracker.obj
+.\Debug\TrackerHandler.obj
+.\Debug\TrackerManager.obj
+.\Debug\Tracker.res
+\Software\PANASEE2.3\TrackControl\Debug\TrackControlD.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF6.tmp"
+
+<h3>Output Window</h3>
+Linking...
+   Creating library Debug/TrackerD.lib and object Debug/TrackerD.exp
+Creating command line "bscmake.exe /nologo /o"Debug/Tracker.bsc"  .\Debug\StdAfx.sbr .\Debug\ConfigMgr.sbr .\Debug\NDIEMHandler.sbr .\Debug\NDIOpticHandler.sbr .\Debug\Tracker.sbr .\Debug\TrackerHandler.sbr .\Debug\TrackerManager.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFA.bat" with contents
+[
+@echo off
+copy trackerHandler.h ..\include
+copy trackerManager.h ..\include
+copy debug\trackerD.lib ..\libD
+copy debug\trackerD.dll ..\BinD
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPFA.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+TrackerD.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

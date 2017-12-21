@@ -1,0 +1,234 @@
+
+//定义固定大小array
+template	<class	KEYTYPE, class	DATATYPE>
+class	FixedArray
+	{
+	public:
+		UINT		ArraySize;
+		UINT		Top;
+		KEYTYPE		*KeyTable;
+		DATATYPE	*DataTable;
+
+		FixedArray (UINT, BOOL);
+		~FixedArray ();
+		BOOL		Sort();
+		DATATYPE	&	Add(KEYTYPE	&, DATATYPE	&);
+		DATATYPE	&	Add(DATATYPE	&);
+		INT				IndexOf(KEYTYPE	&);
+		DATATYPE	&	Get(INT Index)
+			{ return(DataTable[Index]); };
+		BOOL			RemoveAt(INT);
+		DATATYPE	&	operator	[]	(INT	Index)
+			{ return(Get(Index)); };
+		UINT			GetSize()
+			{ return ( Top ); };
+		UINT			GetAllocationSize()
+			{ return ( ArraySize ); };
+	};
+
+template	<class	KEYTYPE, class	DATATYPE>
+class	FixedArrayElement
+	{
+	public:
+		KEYTYPE		Key;
+		DATATYPE	Data;
+		UINT	operator	>	(FixedArrayElement	&FAE)
+			{ return ( Key > FAE.Key ); };
+		UINT	operator	<	(FixedArrayElement	&FAE)
+			{ return ( Key < FAE.Key ); };
+		UINT	operator	==	(FixedArrayElement	&FAE)
+			{ return ( Key == FAE.Key ); };
+	};
+
+template	<class	KEYTYPE, class	DATATYPE>
+	FixedArray<KEYTYPE, DATATYPE>	::	FixedArray (
+	UINT	aSize,
+	BOOL	UseKeys)
+	{
+	ArraySize = aSize;
+	Top = 0;
+	if ( UseKeys )
+		KeyTable = new KEYTYPE [ aSize ];
+	else
+		KeyTable = NULL;
+	DataTable = new DATATYPE [ aSize ];
+	}
+
+template	<class	KEYTYPE, class	DATATYPE>
+	FixedArray<KEYTYPE, DATATYPE>	::	~FixedArray ()
+	{
+	if ( KeyTable )
+		delete KeyTable;
+	if ( DataTable )
+		delete DataTable;
+	}
+
+template	<class	KEYTYPE, class	DATATYPE>
+BOOL	FixedArray<KEYTYPE, DATATYPE>	::	Sort()
+	{
+	UINT	Index;
+	FixedArrayElement < KEYTYPE, DATATYPE >			FAE;
+	PQueue< FixedArrayElement<KEYTYPE, DATATYPE> >	PQFAE;
+
+	if ( ! KeyTable )
+		return ( FALSE );	// Not a sortable array
+
+	Index = 0;
+	while ( Index < Top )
+		{
+		FAE.Key = KeyTable [ Index ];
+		FAE.Data = DataTable [ Index ];
+		PQFAE.Push(FAE);
+		++Index;
+		}
+	Index = 0;
+	while ( Index < Top )
+		{
+		FAE = PQFAE.Pop ();
+		KeyTable [ Index ] = FAE.Key;
+		DataTable [ Index ] = FAE.Data;
+		++Index;
+		}
+	return ( TRUE );
+	}
+
+template	<class	KEYTYPE, class	DATATYPE>
+DATATYPE	&	FixedArray<KEYTYPE, DATATYPE>	::	Add(
+	KEYTYPE		&Key,
+	DATATYPE	&Data)
+	{
+	if (Top < ArraySize)
+		{
+		if ( KeyTable )
+			KeyTable [ Top ] = Key;
+		if ( DataTable )
+			DataTable [ Top ] = Data;
+		++Top;
+		}
+	return ( DataTable [ Top-1 ] );
+	}
+		
+template	<class	KEYTYPE, class	DATATYPE>
+DATATYPE	&	FixedArray<KEYTYPE, DATATYPE>	::	Add(
+	DATATYPE	&Data)
+	{
+	if ( Top < ArraySize )
+		{
+		if ( DataTable )
+			DataTable [ Top ] = Data;
+		++Top;
+		}
+	return ( DataTable [ Top-1 ] );
+	}
+
+template	<class	KEYTYPE, class	DATATYPE>
+INT		FixedArray<KEYTYPE, DATATYPE>	::	IndexOf(
+	KEYTYPE		&Key)
+	{
+
+	if (!KeyTable)
+		return ( -1 );
+
+	if ( ! Top )
+		return ( -1 );
+	if(Top==1)
+	{
+		if(KeyTable [0] != Key)
+			return (-1);
+	}
+	
+	if(KeyTable [Top-1] < Key)
+		return (-1);
+	if(KeyTable [0] > Key)
+		return (-1);
+
+	UINT		Index = (Top / 2-1);
+	UINT		Shift =Index>2?(Index / 2):1;
+	
+	while( KeyTable [ Index ] != Key&&Shift!=0 )
+	{
+		if ( KeyTable [ Index ] > Key )
+			Index -= Shift;
+		else
+			Index += Shift;
+
+		if ( Index >= Top )
+			{ Index = Top - 1;	break; };
+		if ( Index <= 0 )
+			{ Index = 0; break; };
+		Shift = Shift / 2;
+	}
+/*
+	while ( KeyTable [ Index ] != Key )
+		{
+		if ( KeyTable [ Index ] > Key )
+			Index -= Shift;
+		else
+			Index += Shift;
+
+		if ( Index >= Top )
+			{ Index = Top - 1;	break; };
+		if ( Index <= 0 )
+			{ Index = 0; break; };
+		if ( Shift == 0 )
+			{ break; }
+		Shift = Shift / 2;
+		}
+*/
+	if ( KeyTable [ Index ] == Key )
+		return ( Index );
+
+	if ( KeyTable [ Index ] < Key )
+		{
+		while ( Index < Top )
+			{
+			if ( KeyTable [ Index ] == Key )
+				return ( Index );
+			if ( KeyTable [ Index ] > Key )
+				return ( -1 );
+			++Index;
+			}
+		return ( -1 );
+		}
+	else
+		{
+		while ( Index >= 0 )
+			{
+			if ( KeyTable [ Index ] == Key )
+				return ( Index );
+			if ( KeyTable [ Index ] < Key )
+				return ( -1 );
+			--Index;
+			}
+		return ( -1 );
+		}
+	return ( -1 );
+	}
+
+
+template	<class	KEYTYPE, class	DATATYPE>
+BOOL	FixedArray<KEYTYPE, DATATYPE>	::	RemoveAt(
+	INT		Index)
+	{
+	if ( Index >= Top )
+		return ( FALSE );
+
+	if ( DataTable )
+		{
+		if ( (Index + 1) != Top )
+			memcpy(	(void*)&DataTable [ Index ],
+					(void*)&DataTable [ Index + 1],
+					sizeof ( DATATYPE ) * Top - Index - 1);
+		}
+	if ( KeyTable )
+		{
+		if ( (Index + 1) != Top )
+			memcpy(	(void*)&KeyTable [ Index ],
+					(void*)&KeyTable [ Index + 1],
+					sizeof ( KEYTYPE ) * Top - Index - 1);
+		}
+	--Top;
+	return ( TRUE );
+	}
+
+

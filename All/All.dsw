@@ -1,0 +1,590 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "Conf"=..\Conf\Conf.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name PanaSkin
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DCMINT"=..\DCMINT\DCMINT.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DICOM
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DCMTK"=..\DcmTk\vc6\DCMTK\DCMTK.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name dcmdata
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name dcmnet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ofstd
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DICOM"=..\DICOM\DICOM.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DisplayDll"=..\DisplayDll\DisplayDll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name GeometryDll
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "GeoAnalysisDll"=..\GeoAnalysisDll\GeoAnalysisDll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name GeometryDll
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "GeometryDll"=..\GeometryDll\GeometryDll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name trimath
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ImageAnalysisDll"=..\ImageAnalysisDll\ImageAnalysisDll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name trimath
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ImageDisplay"=..\ImageDisplay\ImageDisplay.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MRISeriesDLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DisplayDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name trimath
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImagePlus
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ImagePlus"=..\ImagePlus\ImagePlus.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MRISeriesDLL
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ImgConvertor"=..\ImgConvertor\ImgConvertor.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ImgFusion"=..\ImgFusion\ImgFusion.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ImageDisplay
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MRISeriesDLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PanaSkin
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name vImage
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ImriComm"=..\ImriComm\ImriComm.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ImriDataAccess"=..\ImriDataAccess\ImriDataAccess.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ImriUlServer"=..\ImriUlServer\ImriUlServer.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name ImriComm
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "LogDll"=..\LogDll\LogDll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "MRISeriesDLL"=..\MRISeriesDLL\MRISeriesDLL.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name GeometryDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImriDataAccess
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name trimath
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "MriCalibrationDll"=..\MriCalibrationDll\MriCalibrationDll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name GeoAnalysisDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name GeometryDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImageAnalysisDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImageDisplay
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MRISeriesDLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name trimath
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "PanaSkin"=..\PanaSkin\PanaSkin.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "PatInfoMrg"=..\PatInfoMrg\PatInfoMrg.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MRISeriesDLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImageDisplay
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Surgery"=..\Surgery\Surgery.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DisplayDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name GeoAnalysisDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name GeometryDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImageAnalysisDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImageDisplay
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImriComm
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImriDataAccess
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name LogDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MriCalibrationDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name trimath
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name UIUtilDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImagePlus
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImgFusion
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PatInfoMrg
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DCMTK
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ImgConvertor
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MRISeriesDLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PanaSkin
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Tps
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Tracker
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Tps"=..\Tps\Tps.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MRISeriesDLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PanaSkin
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name trimath
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name UIUtilDll
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name vImage
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name MriCalibrationDll
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "TrackControl"=..\TrackControl\TrackControl.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Tracker"=..\Tracker\Tracker.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name TrackControl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "UIUtilDll"=..\UIUtilDll\UIUtilDll.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "WinXP.Luna"=..\CommonSkin\WinXP.Luna_vc60.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dcmdata"=..\DcmTk\vc6\dcmdata\libsrc\dcmdata.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dcmnet"=..\DcmTk\vc6\dcmnet\libsrc\dcmnet.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "itkPlug"=..\itkPlug\itkPlug.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ofstd"=..\DcmTk\vc6\ofstd\libsrc\ofstd.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "panasee"=..\panasee\panasee.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "trimath"=..\TriMath\trimath.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "vImage"=..\vImage\vImage.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name MRISeriesDLL
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name PanaSkin
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

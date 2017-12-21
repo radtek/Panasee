@@ -1,0 +1,299 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "ALL_BUILD"=.\ALL_BUILD.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name dcm2xml
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmconv
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmcrle
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdrle
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdump
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmftest
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmgpdir
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmodify
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dump2dcm
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name pdf2dcm
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name xml2dcm
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "INSTALL"=.\INSTALL.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ALL_BUILD
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dcm2xml"=apps\dcm2xml.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dcmconv"=apps\dcmconv.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dcmcrle"=apps\dcmcrle.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dcmdata"=libsrc\dcmdata.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "dcmdrle"=apps\dcmdrle.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dcmdump"=apps\dcmdump.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dcmftest"=apps\dcmftest.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dcmgpdir"=apps\dcmgpdir.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dcmodify"=apps\dcmodify.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "dump2dcm"=apps\dump2dcm.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "ofstd"=../ofstd/libsrc\ofstd.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "pdf2dcm"=apps\pdf2dcm.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "xml2dcm"=apps\xml2dcm.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+Begin Project Dependency
+Project_Dep_Name ofstd
+End Project Dependency
+Begin Project Dependency
+Project_Dep_Name dcmdata
+End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

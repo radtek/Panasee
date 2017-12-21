@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MRISeriesDLL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/MRISeriesDLL.res" /d "_DEBUG" /d "_AFXDLL" "D:\Software\PANASEE2.3\MRISeriesDLL\MRISeriesDLL.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Include" /I "..\Include\ImgHeader" /I "..\Include\Modeling\Common" /I "..\Include\Modeling\Model" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "_BUILD_MRISERIES_DLL" /FR"Debug/" /Fp"Debug/MRISeriesDLL.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Software\PANASEE2.3\MRISeriesDLL\MRIImage.cpp"
+"D:\Software\PANASEE2.3\MRISeriesDLL\MRISeries.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8E.bat" with contents
+[
+@echo off
+..\vcVersion MRISeriesDll
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8E.bat"
+Compiling resources...
+Compiling...
+MRISeries.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+MRIImage.cpp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8F.tmp" with contents
+[
+GeometryDllD.lib TrimathD.lib ImriDataAccessD.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/MRISeriesDLLD.pdb" /debug /machine:I386 /def:".\MRISeriesDLL.def" /out:"Debug/MRISeriesDLLD.dll" /implib:"Debug/MRISeriesDLLD.lib" /pdbtype:sept /libpath:".\Orient_DataAccess" /libpath:"..\LibD" 
+.\Debug\DataProcessor.obj
+.\Debug\LUT.obj
+.\Debug\MRIImage.obj
+.\Debug\MRISeries.obj
+.\Debug\MRISeriesDLL.obj
+.\Debug\MultiUsedObject.obj
+.\Debug\StdAfx.obj
+.\Debug\MRISeriesDLL.res
+\Software\PANASEE2.3\GeometryDll\Debug\GeometryDllD.lib
+\Software\PANASEE2.3\ImriDataAccess\Debug\ImriDataAccessD.lib
+\Software\PANASEE2.3\TriMath\Debug\trimathD.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8F.tmp"
+
+<h3>Output Window</h3>
+Linking...
+   Creating library Debug/MRISeriesDLLD.lib and object Debug/MRISeriesDLLD.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP93.bat" with contents
+[
+@echo off
+copy .\Debug\MRISeriesDLLD.dll ..\BinD
+copy .\Debug\MRISeriesDLLD.lib ..\LibD
+copy .\MRISeries.h ..\Include
+copy .\MRIImage.h ..\Include
+copy .\LUT.h ..\Include\.
+copy .\MultiUsedObject.h ..\include
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP93.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+MRISeriesDLLD.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

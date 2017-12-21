@@ -1,0 +1,9 @@
+; DCMTK.def : Declares the module parameters for the DLL.
+
+EXPORTS
+    ; Explicit exports can go here
+	BeginServer @1
+	TermServer @2
+	SetSvrAET @3
+	SetSvrPort @4
+	SetSvrRootDir @5

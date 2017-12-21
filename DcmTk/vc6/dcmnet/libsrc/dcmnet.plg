@@ -1,0 +1,106 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dcmnet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP330.tmp" with contents
+[
+/nologo /MDd /W3 /GR /GX /Zi /Od /I "..\..\..\config\include" /I "..\..\..\dcmnet\include" /I "..\..\..\ofstd\include" /I "..\..\..\dcmdata\include" /D "_DEBUG" /D "WIN32" /D "_LIB" /D "_WINDOWS" /D "_MBCS" /D "_REENTRANT" /D CMAKE_INTDIR=\"Debug\" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /Zm1000  /GZ  /TP /c 
+"E:\Panasee2.3.1.252\DcmTk\dcmnet\libsrc\dul.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP330.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP331.bat" with contents
+[
+@echo off
+"D:\Program Files\CMake 2.8\bin\cmake.exe" -E make_directory E:/DcmTK/dcmtk-3.5.4/lib/Debug
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP331.bat"
+Compiling...
+dul.cxx
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP332.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Debug\dcmnet.lib" 
+.\Debug\assoc.obj
+.\Debug\cond.obj
+.\Debug\dcasccff.obj
+.\Debug\dcasccfg.obj
+.\Debug\dccfenmp.obj
+.\Debug\dccfpcmp.obj
+.\Debug\dccfprmp.obj
+.\Debug\dccfrsmp.obj
+.\Debug\dccftsmp.obj
+.\Debug\dccfuidh.obj
+.\Debug\dcmlayer.obj
+.\Debug\dcmtrans.obj
+.\Debug\dcompat.obj
+.\Debug\dimcancl.obj
+.\Debug\dimcmd.obj
+.\Debug\dimdump.obj
+.\Debug\dimecho.obj
+.\Debug\dimfind.obj
+.\Debug\dimget.obj
+.\Debug\dimmove.obj
+.\Debug\dimse.obj
+.\Debug\dimstore.obj
+.\Debug\diutil.obj
+.\Debug\dul.obj
+.\Debug\dulconst.obj
+.\Debug\dulextra.obj
+.\Debug\dulfsm.obj
+.\Debug\dulparse.obj
+.\Debug\dulpres.obj
+.\Debug\extneg.obj
+.\Debug\lst.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP332.tmp"
+
+<h3>Output Window</h3>
+Creating library...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP333.tmp" with contents
+[
+/nologo /o"..\..\..\lib\Debug/dcmnet.bsc" 
+.\Debug\assoc.sbr
+.\Debug\cond.sbr
+.\Debug\dcasccff.sbr
+.\Debug\dcasccfg.sbr
+.\Debug\dccfenmp.sbr
+.\Debug\dccfpcmp.sbr
+.\Debug\dccfprmp.sbr
+.\Debug\dccfrsmp.sbr
+.\Debug\dccftsmp.sbr
+.\Debug\dccfuidh.sbr
+.\Debug\dcmlayer.sbr
+.\Debug\dcmtrans.sbr
+.\Debug\dcompat.sbr
+.\Debug\dimcancl.sbr
+.\Debug\dimcmd.sbr
+.\Debug\dimdump.sbr
+.\Debug\dimecho.sbr
+.\Debug\dimfind.sbr
+.\Debug\dimget.sbr
+.\Debug\dimmove.sbr
+.\Debug\dimse.sbr
+.\Debug\dimstore.sbr
+.\Debug\diutil.sbr
+.\Debug\dul.sbr
+.\Debug\dulconst.sbr
+.\Debug\dulextra.sbr
+.\Debug\dulfsm.sbr
+.\Debug\dulparse.sbr
+.\Debug\dulpres.sbr
+.\Debug\extneg.sbr
+.\Debug\lst.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP333.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+dcmnet.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

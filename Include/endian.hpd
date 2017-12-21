@@ -1,0 +1,24 @@
+
+
+// Template file.  Never include directly.  Include endian.hpp instead
+
+class	XE_UINTX
+	{
+	public:
+		UINTX		Data;
+	
+	XE_UINTX	&	operator	=	(UINTX	&);
+	XE_UINTX	&	operator	=	(const XE_UINTX &);
+	XE_UINTX	&	operator	=	(const	int &);
+	XE_UINTX	*	operator	&	();
+					operator	UINTX	();
+								XE_UINTX ();
+								XE_UINTX (XE_UINTX &);
+								XE_UINTX (UINT16);
+								XE_UINTX (UINT32);
+								XE_UINTX (INT16);
+//								XE_UINTX (INT32); //Commented by Lin
+								XE_UINTX (int);
+	};
+
+

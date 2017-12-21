@@ -1,0 +1,7 @@
+; TrackControl.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "TrackControl"
+DESCRIPTION  'TrackControl Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

@@ -1,0 +1,160 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MRISeriesDLL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/MRISeriesDLL.res" /d "_DEBUG" /d "_AFXDLL" "E:\Panasee2.3.1.252\MRISeriesDLL\MRISeriesDLL.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Include" /I "..\Include\ImgHeader" /I "..\Include\Modeling\Common" /I "..\Include\Modeling\Model" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "_BUILD_MRISERIES_DLL" /FR"Debug/" /Fp"Debug/MRISeriesDLL.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Panasee2.3.1.252\MRISeriesDLL\DataProcessor.cpp"
+"E:\Panasee2.3.1.252\MRISeriesDLL\LUT.cpp"
+"E:\Panasee2.3.1.252\MRISeriesDLL\MRIImage.cpp"
+"E:\Panasee2.3.1.252\MRISeriesDLL\MRISeries.cpp"
+"E:\Panasee2.3.1.252\MRISeriesDLL\MRISeriesDLL.cpp"
+"E:\Panasee2.3.1.252\MRISeriesDLL\MultiUsedObject.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA2.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Include" /I "..\Include\ImgHeader" /I "..\Include\Modeling\Common" /I "..\Include\Modeling\Model" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "_BUILD_MRISERIES_DLL" /FR"Debug/" /Fp"Debug/MRISeriesDLL.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Panasee2.3.1.252\MRISeriesDLL\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA3.tmp" with contents
+[
+GeometryDllD.lib TrimathD.lib ImriDataAccessD.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/MRISeriesDLLD.pdb" /debug /machine:I386 /def:".\MRISeriesDLL.def" /out:"Debug/MRISeriesDLLD.dll" /implib:"Debug/MRISeriesDLLD.lib" /pdbtype:sept /libpath:".\Orient_DataAccess" /libpath:"..\LibD" 
+.\Debug\DataProcessor.obj
+.\Debug\LUT.obj
+.\Debug\MRIImage.obj
+.\Debug\MRISeries.obj
+.\Debug\MRISeriesDLL.obj
+.\Debug\MultiUsedObject.obj
+.\Debug\StdAfx.obj
+.\Debug\MRISeriesDLL.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA3.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DataProcessor.cpp
+LUT.cpp
+MRIImage.cpp
+MRISeries.cpp
+MRISeriesDLL.cpp
+MultiUsedObject.cpp
+Generating Code...
+Linking...
+   Creating library Debug/MRISeriesDLLD.lib and object Debug/MRISeriesDLLD.exp
+Creating command line "bscmake.exe /nologo /o"Debug/MRISeriesDLL.bsc"  .\Debug\StdAfx.sbr .\Debug\DataProcessor.sbr .\Debug\LUT.sbr .\Debug\MRIImage.sbr .\Debug\MRISeries.sbr .\Debug\MRISeriesDLL.sbr .\Debug\MultiUsedObject.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA7.bat" with contents
+[
+@echo off
+copy .\Debug\MRISeriesDLLD.dll ..\BinD
+copy .\Debug\MRISeriesDLLD.lib ..\LibD
+copy .\MRISeries.h ..\Include
+copy .\MRIImage.h ..\Include
+copy .\LUT.h ..\Include\.
+copy .\MultiUsedObject.h ..\include
+copy .\buffer.h ..\include
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA7.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+<h3>
+--------------------Configuration: PatInfoMrg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PatInfoMrg.res" /d "_DEBUG" /d "_AFXDLL" "E:\Panasee2.3.1.252\PatInfoMrg\PatInfoMrg.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../include" /I "../include/UI1" /I "../include/Panaskin" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/PatInfoMrg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Panasee2.3.1.252\PatInfoMrg\DatabaseConfig.cpp"
+"E:\Panasee2.3.1.252\PatInfoMrg\DlgMRI2DDisplay.cpp"
+"E:\Panasee2.3.1.252\PatInfoMrg\ImriDBI.cpp"
+"E:\Panasee2.3.1.252\PatInfoMrg\PatientInfoDlg.cpp"
+"E:\Panasee2.3.1.252\PatInfoMrg\PatientInfoMrgDlg.cpp"
+"E:\Panasee2.3.1.252\PatInfoMrg\PatInfoEditorDlg.cpp"
+"E:\Panasee2.3.1.252\PatInfoMrg\PatInfoMrg.cpp"
+"E:\Panasee2.3.1.252\PatInfoMrg\Registry.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA8.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../include" /I "../include/UI1" /I "../include/Panaskin" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /FR"Debug/" /Fp"Debug/PatInfoMrg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Panasee2.3.1.252\PatInfoMrg\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPA9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAA.tmp" with contents
+[
+MRISeriesDLLD.lib ImageDisplayD.lib Shlwapi.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/PatInfoMrgD.pdb" /debug /machine:I386 /def:".\PatInfoMrg.def" /out:"./Debug/PatInfoMrgD.dll" /implib:"Debug/PatInfoMrgD.lib" /pdbtype:sept /libpath:"../LibD" 
+.\Debug\DatabaseConfig.obj
+.\Debug\DlgMRI2DDisplay.obj
+.\Debug\ImriDBI.obj
+.\Debug\PatientInfoDlg.obj
+.\Debug\PatientInfoMrgDlg.obj
+.\Debug\PatInfoEditorDlg.obj
+.\Debug\PatInfoMrg.obj
+.\Debug\Registry.obj
+.\Debug\StdAfx.obj
+.\Debug\PatInfoMrg.res
+\Panasee2.3.1.252\MRISeriesDLL\Debug\MRISeriesDLLD.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DatabaseConfig.cpp
+DlgMRI2DDisplay.cpp
+ImriDBI.cpp
+PatientInfoDlg.cpp
+PatientInfoMrgDlg.cpp
+PatInfoEditorDlg.cpp
+PatInfoMrg.cpp
+Registry.cpp
+Generating Code...
+Linking...
+   Creating library Debug/PatInfoMrgD.lib and object Debug/PatInfoMrgD.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAE.bat" with contents
+[
+@echo off
+copy .\Debug\PatInfoMrgD.lib ..\LibD\.
+copy .\Debug\PatInfoMrgD.dll ..\BinD\.
+copy .\ImriDBI.h ..\Include\.
+copy .\PatientInfoDlg.h ..\Include\.
+copy .\PatientInfoMrgDlg.h ..\Include\.
+copy .\DatabaseConfig.h ..\Include\.
+copy .\PatInfoEditorDlg.h ..\include\.
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAE.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+PatInfoMrgD.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

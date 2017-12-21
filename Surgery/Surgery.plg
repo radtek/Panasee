@@ -1,0 +1,168 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Tps - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAF.tmp" with contents
+[
+trimathD.lib opengl32.lib glu32.lib vtkexpat.lib vtksys.lib vtkCommon.lib vtkftgl.lib vtkzlib.lib vtkfreetype.lib vtkftgl.lib vtkMFC.lib vtkWidgets.lib vtkHybrid.lib vtkRendering.lib vtkio.lib vtkGraphics.lib vtkImaging.lib vtkpng.lib vtklibxml2.lib vtkjpeg.lib vtktiff.lib vtkFiltering.lib vtkDICOMParser.lib vtkVolumeRendering.lib ButtonSTD.lib MRISeriesDLLD.lib LicenseApiD.lib EncodeD.lib GetHardDeviceInfoD.lib Netapi32.lib LicenseLibD.lib Version.lib vImageD.lib MRICalibrationDllD.lib /nologo /stack:0x3d0900 /subsystem:windows /dll /incremental:yes /pdb:"Debug/TpsD.pdb" /debug /machine:I386 /out:"Debug/TpsD.dll" /implib:"Debug/TpsD.lib" /pdbtype:sept /libpath:"..\libd" /libpath:"..\libd\vtk" 
+.\Debug\ConfigMgr.obj
+.\Debug\ControlDlg.obj
+.\Debug\CREDITSTATIC.OBJ
+.\Debug\CustomItems.obj
+.\Debug\DisplayDlg.obj
+.\Debug\DlgAutoTrace.obj
+.\Debug\DoseDistribute.obj
+.\Debug\EvaluateDlg.obj
+.\Debug\ExtendVTKClass.obj
+.\Debug\GalilIceBallDistribute.obj
+.\Debug\GlobalManager.obj
+.\Debug\IceBallDistribute.obj
+.\Debug\MeshWriter.obj
+.\Debug\Modal.obj
+.\Debug\ModalContour.obj
+.\Debug\ModalDrag.obj
+.\Debug\ModalPropDlg.obj
+.\Debug\ModalSeg.obj
+.\Debug\ModalVolume.obj
+.\Debug\MPRView.obj
+.\Debug\OleDropTargetEx.obj
+.\Debug\Points2Mesh.obj
+.\Debug\ProbeControlDlg.obj
+.\Debug\ProbePropDlg.obj
+.\Debug\Prop3DTree.obj
+.\Debug\SaveActor2Obj.obj
+.\Debug\StdAfx.obj
+.\Debug\Tps.obj
+.\Debug\TPS2DView.obj
+.\Debug\TPS3DView.obj
+.\Debug\TpsCryoProbe.obj
+.\Debug\TPSFrmMgr.obj
+.\Debug\TpsTool.obj
+.\Debug\TracerPropDlg.obj
+.\Debug\Volume.obj
+.\Debug\vtkPowerCrustSurfaceReconstruction.obj
+.\Debug\Tps.res
+\Panasee2.3.1.252\MRISeriesDLL\Debug\MRISeriesDLLD.lib
+\Panasee2.3.1.252\PanaSkin\Debug\PanaSkinD.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPAF.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library Debug/TpsD.lib and object Debug/TpsD.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB3.bat" with contents
+[
+@echo off
+copy debug\TpsD.dll ..\binD
+copy TpsFrmMgr.h ..\include
+copy debug\TpsD.lib ..\libD
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB3.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+<h3>
+--------------------Configuration: Surgery - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+opengl32.lib glu32.lib TpsD.lib ImriDataAccessD.lib UIUtilDllD.lib trimathD.lib TrackControlD.lib TrackerD.lib GeometryDllD.lib DisplayDllD.Lib DataManagerD.lib MriCalibrationDllD.lib MRISeriesDLLD.lib GeoAnalysisDllD.lib ImageDisplayD.lib TCPComD.lib ImageAnalysisDllD.lib MyTimer.lib PatInfoMrgD.Lib LogDllD.lib ImgConvertorD.lib ImriUlServerD.lib LicenseApiD.lib EncodeD.lib GetHardDeviceInfoD.lib Netapi32.lib LicenseLibD.lib PanaSkinD.lib version.lib msimg32.lib vImageD.lib imgFusionD.lib XBCStoreSvrD.lib DCMTK.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SurgeryD.pdb" /debug /machine:I386 /out:"..\BinD\SurgeryD.exe" /pdbtype:sept /libpath:"../LibD" 
+.\Debug\BiopsyProbeSetting.obj
+.\Debug\CompareFrame.obj
+.\Debug\ComSetPage.obj
+.\Debug\ConfigMgr.obj
+.\Debug\CrashRstore.obj
+.\Debug\CryotherapyDlg.obj
+.\Debug\CryotherapyProbeSetting.obj
+.\Debug\DataPool.obj
+.\Debug\Dispaly4Dlg.obj
+.\Debug\DisplayDlg.obj
+.\Debug\DlgBaseCalibration.obj
+.\Debug\DlgBaseSelection.obj
+.\Debug\DlgCaliModeSel.obj
+.\Debug\DlgCaliPT.obj
+.\Debug\DlgCmdBar.obj
+.\Debug\DlgCtrlCompare.obj
+.\Debug\DlgDICOMSrv.obj
+.\Debug\DlgDispCompare.obj
+.\Debug\DlgDisplayControl.obj
+.\Debug\DlgDisplayWrap.obj
+.\Debug\DlgFusion.obj
+.\Debug\DlgImportPatient.obj
+.\Debug\DlgInfoHist.obj
+.\Debug\DlgMain.obj
+.\Debug\DlgManualBaseCali.obj
+.\Debug\DlgManualCalibrationCP.obj
+.\Debug\DlgMovePT.obj
+.\Debug\DlgMRI2DDisplay.obj
+.\Debug\DlgMRIBrowse.obj
+.\Debug\DlgMriScanOptions.obj
+.\Debug\DlgMRIWrap.obj
+.\Debug\DlgMyAbout.obj
+.\Debug\DlgNavigate.obj
+.\Debug\DlgPatient.obj
+.\Debug\DlgPatientInfo.obj
+.\Debug\DlgScannerControl.obj
+.\Debug\DlgSelectSeries.obj
+.\Debug\DlgSeries.obj
+.\Debug\DlgSetupLegend.obj
+.\Debug\DlgSimulate.obj
+.\Debug\DlgTargeting.obj
+.\Debug\DlgTime.obj
+.\Debug\DlgTitle.obj
+.\Debug\DlgTps.obj
+.\Debug\DlgTpsCtrl.obj
+.\Debug\DlgTpsDisp.obj
+.\Debug\DlgTracker.obj
+.\Debug\DlgTracking.obj
+.\Debug\DlgTrackingStatus.obj
+.\Debug\DlgUSDisplay.obj
+.\Debug\DlgWizard.obj
+.\Debug\GlobalColor.obj
+.\Debug\GlobalFuncs.obj
+.\Debug\GradientCorrection.obj
+.\Debug\GradientCorrection1.obj
+.\Debug\IGSCPManager.obj
+.\Debug\IMRIScene.obj
+.\Debug\MRIBuffer.obj
+.\Debug\MRIRectangle.obj
+.\Debug\MRIRectSeries.obj
+.\Debug\OleDropTargetEx.obj
+.\Debug\PopupMenu.obj
+.\Debug\Probe.obj
+.\Debug\ProbePool.obj
+.\Debug\ProtocolManager.obj
+.\Debug\ScrollDialog.obj
+.\Debug\SeriesLoader.obj
+.\Debug\StdAfx.obj
+.\Debug\Surgery.obj
+.\Debug\TargetPool.obj
+.\Debug\TrackTool.obj
+.\Debug\USRectangle.obj
+.\Debug\VirtualTarget.obj
+.\Debug\Surgery.res
+\Panasee2.3.1.252\PatInfoMrg\Debug\PatInfoMrgD.lib
+\Panasee2.3.1.252\DcmTk\vc6\DCMTK\Debug\DCMTK.lib
+\Panasee2.3.1.252\ImgConvertor\Debug\ImgConvertorD.lib
+\Panasee2.3.1.252\MRISeriesDLL\Debug\MRISeriesDLLD.lib
+\Panasee2.3.1.252\PanaSkin\Debug\PanaSkinD.lib
+\Panasee2.3.1.252\Tps\Debug\TpsD.lib
+\Panasee2.3.1.252\Tracker\Debug\TrackerD.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB4.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library ..\BinD\SurgeryD.lib and object ..\BinD\SurgeryD.exp
+
+
+
+<h3>Results</h3>
+SurgeryD.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

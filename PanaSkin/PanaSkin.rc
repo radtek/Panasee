@@ -1,0 +1,323 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\PanaSkin.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,2,0,244
+ PRODUCTVERSION 2,2,0,244
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PanaSkin DLL\0"
+            VALUE "FileVersion", "2, 2, 0, 244\0"
+            VALUE "InternalName", "PanaSkin\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PanaSkin.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "PanaSkin Dynamic Link Library\0"
+            VALUE "ProductVersion", "2, 2, 0, 244\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_MENUSKIN     BITMAP  DISCARDABLE     "res\\MenuSkin.bmp"
+IDB_BITMAP_TITLE_SKIN   BITMAP  DISCARDABLE     "res\\DlgTitleSkin.bmp"
+IDB_BITMAP_TOOL_SKIN    BITMAP  DISCARDABLE     "res\\ToolBar\\DlgToolSkin.bmp"
+IDB_BITMAP_MAIN_SKIN    BITMAP  DISCARDABLE     "res\\DlgMainSkin.bmp"
+IDB_BITMAP_PANAL_SKIN   BITMAP  DISCARDABLE     "res\\DlgPanelSkin.bmp"
+IDB_BITMAP_PROBE_FRAME  BITMAP  DISCARDABLE     "res\\ProbeFrame.bmp"
+IDB_BITMAP_SEPRATE      BITMAP  DISCARDABLE     "res\\Seprate.bmp"
+IDB_BITMAP_SCAN_FRAME   BITMAP  DISCARDABLE     "res\\ScanFrame.bmp"
+IDB_BITMAP_TIME_SKIN    BITMAP  DISCARDABLE     "res\\DlgTimeSkin.bmp"
+IDB_BITMAP_INFO_SKIN    BITMAP  DISCARDABLE     "res\\DlgInfomationSkin.bmp"
+IDB_BITMAP_BTN_NEXT     BITMAP  DISCARDABLE     "res\\BtnNext.bmp"
+IDB_BITMAP_BTN_PRE      BITMAP  DISCARDABLE     "res\\BtnPre.bmp"
+IDB_BITMAP_BTN_SERIES   BITMAP  DISCARDABLE     "res\\BtnSeries.bmp"
+IDB_BITMAP_BTN_MRICONTROL BITMAP  DISCARDABLE     "res\\BtnMriControl.bmp"
+IDB_BITMAP_BTN_PATIENT  BITMAP  DISCARDABLE     "res\\BtnPatient.bmp"
+IDB_BITMAP_BTN_LOGIN_SELECTED BITMAP  DISCARDABLE     "res\\Login\\btnLoginSelected.bmp"
+IDB_BITMAP_SCROLLBAR    BITMAP  DISCARDABLE     "res\\ScrollBar.bmp"
+IDB_BITMAP_DLG_WIZARDSKIN BITMAP  DISCARDABLE     "res\\Wizard\\DlgWizardSkin.bmp"
+IDB_BITMAP_BTN_WIZARD_SELECTED BITMAP  DISCARDABLE     "res\\Wizard\\BtnWizardSelected.bmp"
+IDB_BITMAP_BTN_WIZARD_UNSELECTED BITMAP  DISCARDABLE     "res\\Wizard\\BtnWizardUnselected.bmp"
+IDB_BITMAP_HEADERCTRL_SKIN BITMAP  DISCARDABLE     "res\\HeaderCtrlSkin.bmp"
+IDB_BITMAP_DLG_LOGIN_SKIN BITMAP  DISCARDABLE     "res\\Login\\DlgLoginSkin.bmp"
+IDB_BITMAP_DLGSKIN_MASK BITMAP  DISCARDABLE     "res\\DialogSkinMask.bmp"
+IDB_BITMAP_DLGSKIN2_MASK BITMAP  DISCARDABLE     "res\\DialogSkin2Mask.bmp"
+IDB_BITMAP_WARNING      BITMAP  DISCARDABLE     "res\\IconWarning.bmp"
+IDB_BITMAP_ERROR        BITMAP  DISCARDABLE     "res\\IconErr.bmp"
+IDB_BITMAP_INFORMATION  BITMAP  DISCARDABLE     "res\\IconInformation.bmp"
+IDB_BITMAP_CHECK_FLAG   BITMAP  DISCARDABLE     "res\\CheckFlag.bmp"
+IDB_BITMAP_DLG_WIZARDSKINCT BITMAP  DISCARDABLE     "res\\Wizard\\DlgWizardSkinCT.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_BITMAP_DLGSKIN2     PNG     DISCARDABLE     "res\\DialogSkin2.png"
+IDB_BITMAP_DLGSKIN      PNG     DISCARDABLE     "res\\DialogSkin.png"
+IDB_BITMAP_BTN_ORIENT1  PNG     DISCARDABLE     "res\\MriControl\\plane1.png"
+IDB_BITMAP_BTN_ORIENT2  PNG     DISCARDABLE     "res\\MriControl\\plane2.png"
+IDB_BITMAP_BTN_ORIENT3  PNG     DISCARDABLE     "res\\MriControl\\plane3.png"
+IDB_BITMAP_BTN_POSITION1 PNG     DISCARDABLE     "res\\MriControl\\Probe Data  1.png"
+IDB_BITMAP_BTN_POSITION2 PNG     DISCARDABLE     "res\\MriControl\\Probe Data  2.png"
+IDB_BITMAP_BTN_SWAP1    PNG     DISCARDABLE     "res\\MriControl\\Swap1.png"
+IDB_BITMAP_BTN_SWAP2    PNG     DISCARDABLE     "res\\MriControl\\Swap2.png"
+IDB_BITMAP_BTN_ARROW_DOWN PNG     DISCARDABLE     "res\\MriControl\\BtnDownArrow.png"
+IDB_BITMAP_BTN_CYCLE    PNG     DISCARDABLE     "res\\MriControl\\BtnCycle.png"
+IDB_BITMAP_BTN_PUSHADD  PNG     DISCARDABLE     "res\\MriControl\\Push--放大.png"
+IDB_BITMAP_BTN_PUSHDEL  PNG     DISCARDABLE     "res\\MriControl\\Push--缩小.png"
+IDB_BITMAP_BTN_LEFTROUND PNG     DISCARDABLE     "res\\MriControl\\btnLeftRound.png"
+IDB_BITMAP_BTN_NORMAL   PNG     DISCARDABLE     "res\\MriControl\\btnNormal.png"
+IDB_BITMAP_BTN_RIGHTROUND PNG     DISCARDABLE     "res\\MriControl\\btnRightRound.png"
+IDB_BITMAP_BTN_SCROLL   PNG     DISCARDABLE     "res\\MriControl\\Push--滑块.png"
+IDB_BITMAP_BTN_ARROW    PNG     DISCARDABLE     "res\\MriControl\\BtnArrow.png"
+IDB_BITMAP_BTN_LOAD     PNG     DISCARDABLE     "res\\MriControl\\BtnLoad.png"
+IDB_BITMAP_BTN_PRESCAN  PNG     DISCARDABLE     "res\\MriControl\\BtnPrescan.png"
+IDB_BITMAP_BTN_PRESCANSCAN PNG     DISCARDABLE     "res\\MriControl\\Scan(scan+prescan).png"
+IDB_BITMAP_BTN_SCAN     PNG     DISCARDABLE     "res\\MriControl\\Scan(scan).png"
+IDB_BITMAP_BTN_STOP     PNG     DISCARDABLE     "res\\MriControl\\BtnStop.png"
+IDB_BITMAP_TOOL_TARGET  PNG     DISCARDABLE     "res\\ToolBar\\状态切换.png"
+IDB_BITMAP_TOOL_BROWSEIMAGE PNG     DISCARDABLE     "res\\ToolBar\\图像显示.png"
+IDB_BITMAP_TOOL_CAMERA  PNG     DISCARDABLE     "res\\ToolBar\\相机开启和停止.png"
+IDB_BITMAP_TOOL_CAPTURE PNG     DISCARDABLE     "res\\ToolBar\\屏幕捕捉.png"
+IDB_BITMAP_TOOL_COMPAREIMAGE PNG     DISCARDABLE     "res\\ToolBar\\图像对比显示.png"
+IDB_BITMAP_TOOL_MEASURE PNG     DISCARDABLE     "res\\ToolBar\\测量.png"
+IDB_BITMAP_TOOL_MOVECAMERA PNG     DISCARDABLE     "res\\ToolBar\\相机位置移动状态.png"
+IDB_BITMAP_TOOL_PATIENTTABLE PNG     DISCARDABLE     "res\\ToolBar\\移动病床.png"
+IDB_BITMAP_TOOL_SYSTEM  PNG     DISCARDABLE     "res\\ToolBar\\ToolSystem.png"
+IDB_BITMAP_BTN_CONFIG2  PNG     DISCARDABLE     "res\\Login\\Config2.png"
+IDB_BITMAP_BTN_APPLICATION PNG     DISCARDABLE     "res\\Login\\Application.png"
+IDB_BITMAP_BTN_CONFIG   PNG     DISCARDABLE     "res\\Login\\Config.png"
+IDB_BITMAP_BTN_PATIENTDB PNG     DISCARDABLE     "res\\Login\\Patient DB.png"
+IDB_BITMAP_BTN_TOOLS    PNG     DISCARDABLE     "res\\Login\\TOOLS.png"
+IDB_BITMAP_BTN_TPS      PNG     DISCARDABLE     "res\\Login\\TPS.png"
+IDB_BITMAP_BTN_TPS2     PNG     DISCARDABLE     "res\\Login\\TPS2.png"
+IDB_BITMAP_BTN_APPLICATION2 PNG     DISCARDABLE     "res\\Login\\Application2.png"
+IDB_BITMAP_BTN_PATIENTDB2 PNG     DISCARDABLE     "res\\Login\\Patient DB2.png"
+IDB_BITMAP_BTN_TOOLS2   PNG     DISCARDABLE     "res\\Login\\TOOLS2.png"
+IDB_BITMAP_BTN_QUIT     PNG     DISCARDABLE     "res\\Login\\退出.png"
+IDB_BITMAP_BTN_LOGIN_SELECTED_FRAME PNG     DISCARDABLE     "res\\Login\\btnLoginSelectedFrame.png"
+IDB_BITMAP_BTN_WIZARD_PRE PNG     DISCARDABLE     "res\\Wizard\\Buton---上一步.png"
+IDB_BITMAP_BTN_WIZARD_QUIT PNG     DISCARDABLE     "res\\Wizard\\BtnWizardQuit.png"
+IDB_BITMAP_BTN_WIZARD_SELECTEDARROW PNG     DISCARDABLE     "res\\Wizard\\BtnWizardSelectedArrow.png"
+IDB_BITMAP_BTN_IMAGE_FIRST PNG     DISCARDABLE     "res\\ImageControl\\BtnImageFirst.png"
+IDB_BITMAP_BTN_IMAGE_PRE PNG     DISCARDABLE     "res\\ImageControl\\BtnImagePre.png"
+IDB_BITMAP_BTN_IMAGE_3D PNG     DISCARDABLE     "res\\ImageControl\\BtnImage3D.png"
+IDB_BITMAP_BTN_IMAGE_LAST PNG     DISCARDABLE     "res\\ImageControl\\BtnImageLast.png"
+IDB_BITMAP_BTN_IMAGE_MAX PNG     DISCARDABLE     "res\\ImageControl\\BtnImageMax.png"
+IDB_BITMAP_BTN_IMAGE_NEXT PNG     DISCARDABLE     "res\\ImageControl\\BtnImageNext.png"
+IDB_BITMAP_BTN_PAUSE    PNG     DISCARDABLE     "res\\MriControl\\BtnPause.png"
+IDB_BITMAP_LOGIN_SEPRATE PNG     DISCARDABLE     "res\\Login\\分割线.png"
+IDB_BITMAP_PROBE_VISABLE PNG     DISCARDABLE     "res\\指示灯（针）.png"
+IDB_BITMAP_BASE_VISABLE PNG     DISCARDABLE     "res\\指示灯（BASE）.png"
+IDB_BITMAP_BTN_WIZARD_SELECTEDFAIL PNG     DISCARDABLE     "res\\Wizard\\失败.png"
+IDR_PNG_DOT             PNG     DISCARDABLE     "res\\Time\\Dot.png"
+IDR_PNG_0               PNG     DISCARDABLE     "res\\Time\\0.png"
+IDR_PNG_1               PNG     DISCARDABLE     "res\\Time\\1.png"
+IDR_PNG_2               PNG     DISCARDABLE     "res\\Time\\2.png"
+IDR_PNG_3               PNG     DISCARDABLE     "res\\Time\\3.png"
+IDR_PNG_4               PNG     DISCARDABLE     "res\\Time\\4.png"
+IDR_PNG_5               PNG     DISCARDABLE     "res\\Time\\5.png"
+IDR_PNG_6               PNG     DISCARDABLE     "res\\Time\\6.png"
+IDR_PNG_7               PNG     DISCARDABLE     "res\\Time\\7.png"
+IDR_PNG_8               PNG     DISCARDABLE     "res\\Time\\8.png"
+IDR_PNG_9               PNG     DISCARDABLE     "res\\Time\\9.png"
+IDR_BITMAP_LOVEFLAG     PNG     DISCARDABLE     "res\\LoveFlag.png"
+IDB_BITMAP_BTN_BOTHROUND PNG     DISCARDABLE     "res\\MriControl\\btnBothRound.png"
+IDR_BITMAP_TAB_SERIES   PNG     DISCARDABLE     "res\\series.png"
+IDR_BITMAP_TAB_PATIENT  PNG     DISCARDABLE     "res\\patient.png"
+IDR_BITMAP_TPS_BK       PNG     DISCARDABLE     "res\\TPS\\TpsBk.png"
+IDR_BITMAP_BTN_BOTHROUND_INVERT PNG     DISCARDABLE     "res\\MriControl\\btnBothRoundInvert.png"
+IDR_BITAMP_BTN_RIGHTROUND_INVERT PNG     DISCARDABLE     "res\\MriControl\\btnRightRoundInvert.png"
+IDR_BITMAP_BTN_TOPWND   PNG     DISCARDABLE     "res\\ImageControl\\up.png"
+IDR_BITMAP_BTN_IMAGE1   PNG     DISCARDABLE     "res\\ImageControl\\1.png"
+IDR_BITMAP_BTN_IMAGE2   PNG     DISCARDABLE     "res\\ImageControl\\2.png"
+IDR_BITMAP_BTN_IMAGE3   PNG     DISCARDABLE     "res\\ImageControl\\3.png"
+IDR_PNG_TPS_BTN_EVALUATE PNG     DISCARDABLE     "res\\TPS\\模拟效果2.png"
+IDR_PNG_TPS_BTN_BK      PNG     DISCARDABLE     "res\\TPS\\btkBK.png"
+IDR_PNG_TPS_BTN_SAVE    PNG     DISCARDABLE     "res\\TPS\\保存.png"
+IDR_PNG_TPS_BTN_PROBE   PNG     DISCARDABLE     "res\\TPS\\产生冷冻针.png"
+IDR_PNG_TPS_BTN_OPEN    PNG     DISCARDABLE     "res\\TPS\\打开.png"
+IDR_BITMAP_PROTOCAL     PNG     DISCARDABLE     "res\\MriControl\\Protocal.png"
+IDR_BITMAP_MRI_OPTION   PNG     DISCARDABLE     "res\\MriOption.png"
+IDR_PNG_VIEW1           PNG     DISCARDABLE     "res\\View1.png"
+IDR_PNG_VIEW2           PNG     DISCARDABLE     "res\\View2.png"
+IDR_PNG_VIEW3           PNG     DISCARDABLE     "res\\View3.png"
+IDR_PNG_VIEW4           PNG     DISCARDABLE     "res\\View4.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_MSGBOX DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "Tahoma"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,24,72,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,108,78,50,14
+    EDITTEXT        IDC_STATIC_PANA_MSG,24,6,126,54,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | NOT 
+                    WS_BORDER
+END
+
+IDD_DLG_WAITING DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE WS_POPUP | WS_CAPTION
+FONT 8, "Tahoma"
+BEGIN
+    LTEXT           "...",IDC_STATIC_WAITING,29,20,116,39
+END
+
+IDD_DLG_NULL DIALOG DISCARDABLE  0, 0, 187, 100
+STYLE WS_POPUP | WS_CAPTION
+FONT 8, "Tahoma"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DLG_WAITING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_DLG_NULL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\PanaSkin.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

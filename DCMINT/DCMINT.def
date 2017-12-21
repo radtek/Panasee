@@ -1,0 +1,9 @@
+; DCMINT.def : Declares the module parameters for the DLL.
+
+EXPORTS
+    ; Explicit exports can go here
+	BeginSVRSCP @1
+	TermSVRSCP @2
+	SetAET @3
+	SetPort @4
+	SetRootDir @5

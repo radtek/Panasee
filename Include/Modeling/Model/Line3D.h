@@ -1,0 +1,65 @@
+// Line3D.h: interface for the Line3D class.
+// Created by Wei Wei [Mar.16, 2006]
+// InterSmart Robotic Systems Co., Ltd.
+//////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_LINE3D_H__1C2F5C2A_FB06_423C_BD17_000198BD47E9__INCLUDED_)
+#define AFX_LINE3D_H__1C2F5C2A_FB06_423C_BD17_000198BD47E9__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "../Common/Geometry.h"
+
+class __declspec(dllexport) Line3D  
+{
+public:
+
+	//////////////////////////////////////////////////////////////////////////
+	// Construction/Destruction
+	//////////////////////////////////////////////////////////////////////////
+	
+	Line3D();
+	Line3D( Vector3D vOrigin, Vector3D vOrientation );
+	virtual ~Line3D();
+
+	//////////////////////////////////////////////////////////////////////////
+	// Operations
+	//////////////////////////////////////////////////////////////////////////
+	
+	// Get the origin
+	Vector3D GetOrigin();
+
+	// Set the origin
+	void SetOrigin( Vector3D vOrigin );
+
+	// Get the orientation
+	Vector3D GetOrientation();
+
+	// Set the orientation
+	void SetOrientation( Vector3D vOrientation );
+
+	// Construct the line with a set of point
+
+private:
+
+	//////////////////////////////////////////////////////////////////////////
+	// Operations
+	//////////////////////////////////////////////////////////////////////////
+	
+
+	//////////////////////////////////////////////////////////////////////////
+	// Attributes
+	//////////////////////////////////////////////////////////////////////////
+	
+	// Origin
+	Vector3D m_vOrigin;
+
+	// Orientation
+	Vector3D m_vOrientation;
+
+
+};
+
+#endif // !defined(AFX_LINE3D_H__1C2F5C2A_FB06_423C_BD17_000198BD47E9__INCLUDED_)

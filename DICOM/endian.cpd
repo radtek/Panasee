@@ -1,0 +1,74 @@
+
+
+// Template file.  Never compiler directly
+
+XE_UINTX	&	XE_UINTX :: operator = (UINTX	&x)
+	{
+	Data = SwitchEndian (x);
+	return (*this);
+	}
+
+XE_UINTX	&	XE_UINTX	::	operator	= (const XE_UINTX	&x)
+	{
+	Data = x.Data;
+	return (*this);
+	}
+
+XE_UINTX	&	XE_UINTX :: operator = (const int	&x)
+	{
+	UINTX	Temp = (UINTX) x;
+	Data = SwitchEndian (Temp);
+	return (*this);
+	}
+
+XE_UINTX	*	XE_UINTX	::	operator & ()
+	{
+	return ( (XE_UINTX*)&Data );
+	}
+
+XE_UINTX	::	operator	UINTX	()
+	{
+	return (SwitchEndian (Data) );
+	}
+
+XE_UINTX	::	XE_UINTX	()
+	{
+	Data = 0;
+	}
+
+XE_UINTX	::	XE_UINTX (XE_UINTX	&x)
+	{
+	Data = x.Data;
+	}
+
+XE_UINTX	::	XE_UINTX (UINT16	x)
+	{
+	UINTX	Temp = (UINTX) x;
+	Data = SwitchEndian ( Temp );
+	}
+
+XE_UINTX	::	XE_UINTX (UINT32	x)
+	{
+	UINTX	Temp = (UINTX) x;
+	Data = SwitchEndian ( Temp );
+	}
+
+XE_UINTX	::	XE_UINTX (INT16	x)
+	{
+	UINTX	Temp = (UINTX) x;
+	Data = SwitchEndian ( Temp );
+	}
+// Commented by Lin
+//XE_UINTX	::	XE_UINTX (INT32	x)
+//	{
+//	UINTX	Temp = (UINTX) x;
+//	Data = SwitchEndian ( Temp );
+//	}
+//
+XE_UINTX	::	XE_UINTX (int	x)
+	{
+	UINTX	Temp = (UINTX) x;
+	Data = SwitchEndian ( Temp );
+	}
+
+	

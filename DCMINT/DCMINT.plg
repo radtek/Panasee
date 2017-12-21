@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DCMINT - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\include" /I "..\include\DICOM" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DCMINT_EXPORTS" /Fp"Debug/DCMINT.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WORK\IGT\Panasee\Panasee2.3\DCMINT\DCMINT.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP30.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP31.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\include" /I "..\include\DICOM" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "DCMINT_EXPORTS" /Fp"Debug/DCMINT.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\WORK\IGT\Panasee\Panasee2.3\DCMINT\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP31.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP32.tmp" with contents
+[
+user32.lib Ws2_32.lib Shlwapi.lib  winmm.lib /nologo /dll /incremental:yes /pdb:"Debug/XBCStoreSvrD.pdb" /debug /machine:I386 /def:".\DCMINT.def" /out:"Debug\XBCStoreSvrD.dll" /implib:"Debug/XBCStoreSvrD.lib" /pdbtype:sept /libpath:"..\libD" 
+.\Debug\DCMINT.obj
+.\Debug\StdAfx.obj
+\WORK\IGT\Panasee\Panasee2.3\DICOM\Debug\DICOMD.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP32.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+DCMINT.cpp
+Linking...
+   Creating library Debug/XBCStoreSvrD.lib and object Debug/XBCStoreSvrD.exp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.bat" with contents
+[
+@echo off
+copy          .\Debug\XBCStoreSvrD.lib          ..\libD\
+copy          .\dcmint.h          ..\include
+copy          .\Debug\XBCStoreSvrD.dll          ..\binD\
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP36.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+XBCStoreSvrD.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

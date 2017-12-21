@@ -1,0 +1,509 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dcmdata - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E.tmp" with contents
+[
+/nologo /MDd /W3 /GR /GX /Zi /Od /I "..\..\..\config\include" /I "..\..\..\dcmdata\include" /I "..\..\..\ofstd\include" /D "_DEBUG" /D "WIN32" /D "_LIB" /D "_WINDOWS" /D "_MBCS" /D "_REENTRANT" /D CMAKE_INTDIR=\"Debug\" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /Zm1000  /GZ  /TP /c 
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\cmdlnarg.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcbytstr.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcchrstr.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dccodec.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcdatset.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcddirif.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcdebug.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcdicdir.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcdicent.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcdict.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcdictzz.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcdirrec.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcelem.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcerror.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcfilefo.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dchashdi.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcistrma.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcistrmb.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcistrmf.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcistrmz.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcitem.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dclist.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcmetinf.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcobject.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcostrma.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcostrmb.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcostrmf.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcostrmz.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcpcache.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcpixel.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcpixseq.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcpxitem.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcrleccd.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcrlecce.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcrlecp.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcrledrg.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcrleerg.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcrlerp.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcsequen.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcstack.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcswap.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dctag.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dctagkey.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dctypes.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcuid.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvm.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvr.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrae.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvras.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrat.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrcs.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrda.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrds.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrdt.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrfd.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrfl.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvris.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrlo.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrlt.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrobow.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrof.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrpn.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrpobw.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrsh.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrsl.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrss.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrst.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrtm.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrui.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrul.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrulup.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrus.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcvrut.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmdata\libsrc\dcxfer.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.bat" with contents
+[
+@echo off
+"D:\Program Files\CMake 2.8\bin\cmake.exe" -E make_directory E:/DcmTK/dcmtk-3.5.4/lib/Debug
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP7F.bat"
+Compiling...
+cmdlnarg.cxx
+dcbytstr.cxx
+dcchrstr.cxx
+dccodec.cxx
+dcdatset.cxx
+dcddirif.cxx
+dcdebug.cxx
+dcdicdir.cxx
+dcdicent.cxx
+dcdict.cxx
+dcdictzz.cxx
+dcdirrec.cxx
+dcelem.cxx
+dcerror.cxx
+dcfilefo.cxx
+dchashdi.cxx
+dcistrma.cxx
+dcistrmb.cxx
+dcistrmf.cxx
+dcistrmz.cxx
+Generating Code...
+Compiling...
+dcitem.cxx
+dclist.cxx
+dcmetinf.cxx
+dcobject.cxx
+dcostrma.cxx
+dcostrmb.cxx
+dcostrmf.cxx
+dcostrmz.cxx
+dcpcache.cxx
+dcpixel.cxx
+dcpixseq.cxx
+dcpxitem.cxx
+dcrleccd.cxx
+dcrlecce.cxx
+dcrlecp.cxx
+dcrledrg.cxx
+dcrleerg.cxx
+dcrlerp.cxx
+dcsequen.cxx
+dcstack.cxx
+Generating Code...
+Compiling...
+dcswap.cxx
+dctag.cxx
+dctagkey.cxx
+dctypes.cxx
+dcuid.cxx
+dcvm.cxx
+dcvr.cxx
+dcvrae.cxx
+dcvras.cxx
+dcvrat.cxx
+dcvrcs.cxx
+dcvrda.cxx
+dcvrds.cxx
+dcvrdt.cxx
+dcvrfd.cxx
+dcvrfl.cxx
+dcvris.cxx
+dcvrlo.cxx
+dcvrlt.cxx
+dcvrobow.cxx
+Generating Code...
+Compiling...
+dcvrof.cxx
+dcvrpn.cxx
+dcvrpobw.cxx
+dcvrsh.cxx
+dcvrsl.cxx
+dcvrss.cxx
+dcvrst.cxx
+dcvrtm.cxx
+dcvrui.cxx
+dcvrul.cxx
+dcvrulup.cxx
+dcvrus.cxx
+dcvrut.cxx
+dcxfer.cxx
+Generating Code...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP80.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Debug\dcmdata.lib" 
+.\Debug\cmdlnarg.obj
+.\Debug\dcbytstr.obj
+.\Debug\dcchrstr.obj
+.\Debug\dccodec.obj
+.\Debug\dcdatset.obj
+.\Debug\dcddirif.obj
+.\Debug\dcdebug.obj
+.\Debug\dcdicdir.obj
+.\Debug\dcdicent.obj
+.\Debug\dcdict.obj
+.\Debug\dcdictzz.obj
+.\Debug\dcdirrec.obj
+.\Debug\dcelem.obj
+.\Debug\dcerror.obj
+.\Debug\dcfilefo.obj
+.\Debug\dchashdi.obj
+.\Debug\dcistrma.obj
+.\Debug\dcistrmb.obj
+.\Debug\dcistrmf.obj
+.\Debug\dcistrmz.obj
+.\Debug\dcitem.obj
+.\Debug\dclist.obj
+.\Debug\dcmetinf.obj
+.\Debug\dcobject.obj
+.\Debug\dcostrma.obj
+.\Debug\dcostrmb.obj
+.\Debug\dcostrmf.obj
+.\Debug\dcostrmz.obj
+.\Debug\dcpcache.obj
+.\Debug\dcpixel.obj
+.\Debug\dcpixseq.obj
+.\Debug\dcpxitem.obj
+.\Debug\dcrleccd.obj
+.\Debug\dcrlecce.obj
+.\Debug\dcrlecp.obj
+.\Debug\dcrledrg.obj
+.\Debug\dcrleerg.obj
+.\Debug\dcrlerp.obj
+.\Debug\dcsequen.obj
+.\Debug\dcstack.obj
+.\Debug\dcswap.obj
+.\Debug\dctag.obj
+.\Debug\dctagkey.obj
+.\Debug\dctypes.obj
+.\Debug\dcuid.obj
+.\Debug\dcvm.obj
+.\Debug\dcvr.obj
+.\Debug\dcvrae.obj
+.\Debug\dcvras.obj
+.\Debug\dcvrat.obj
+.\Debug\dcvrcs.obj
+.\Debug\dcvrda.obj
+.\Debug\dcvrds.obj
+.\Debug\dcvrdt.obj
+.\Debug\dcvrfd.obj
+.\Debug\dcvrfl.obj
+.\Debug\dcvris.obj
+.\Debug\dcvrlo.obj
+.\Debug\dcvrlt.obj
+.\Debug\dcvrobow.obj
+.\Debug\dcvrof.obj
+.\Debug\dcvrpn.obj
+.\Debug\dcvrpobw.obj
+.\Debug\dcvrsh.obj
+.\Debug\dcvrsl.obj
+.\Debug\dcvrss.obj
+.\Debug\dcvrst.obj
+.\Debug\dcvrtm.obj
+.\Debug\dcvrui.obj
+.\Debug\dcvrul.obj
+.\Debug\dcvrulup.obj
+.\Debug\dcvrus.obj
+.\Debug\dcvrut.obj
+.\Debug\dcxfer.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP80.tmp"
+
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: dcmnet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP81.tmp" with contents
+[
+/nologo /MDd /W3 /GR /GX /Zi /Od /I "..\..\..\config\include" /I "..\..\..\dcmnet\include" /I "..\..\..\ofstd\include" /I "..\..\..\dcmdata\include" /D "_DEBUG" /D "WIN32" /D "_LIB" /D "_WINDOWS" /D "_MBCS" /D "_REENTRANT" /D CMAKE_INTDIR=\"Debug\" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /Zm1000  /GZ  /TP /c 
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\assoc.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\cond.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dcasccff.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dcasccfg.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dccfenmp.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dccfpcmp.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dccfprmp.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dccfrsmp.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dccftsmp.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dccfuidh.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dcmlayer.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dcmtrans.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dcompat.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dimcancl.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dimcmd.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dimdump.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dimecho.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dimfind.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dimget.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dimmove.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dimse.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dimstore.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\diutil.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dul.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dulconst.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dulextra.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dulfsm.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dulparse.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\dulpres.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\extneg.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\libsrc\lst.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP81.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP82.bat" with contents
+[
+@echo off
+"D:\Program Files\CMake 2.8\bin\cmake.exe" -E make_directory E:/DcmTK/dcmtk-3.5.4/lib/Debug
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP82.bat"
+Compiling...
+assoc.cxx
+cond.cxx
+dcasccff.cxx
+dcasccfg.cxx
+dccfenmp.cxx
+dccfpcmp.cxx
+dccfprmp.cxx
+dccfrsmp.cxx
+dccftsmp.cxx
+dccfuidh.cxx
+dcmlayer.cxx
+dcmtrans.cxx
+dcompat.cxx
+dimcancl.cxx
+dimcmd.cxx
+dimdump.cxx
+dimecho.cxx
+dimfind.cxx
+dimget.cxx
+dimmove.cxx
+Generating Code...
+Compiling...
+dimse.cxx
+dimstore.cxx
+diutil.cxx
+dul.cxx
+dulconst.cxx
+dulextra.cxx
+dulfsm.cxx
+dulparse.cxx
+dulpres.cxx
+extneg.cxx
+lst.cxx
+Generating Code...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP83.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Debug\dcmnet.lib" 
+.\Debug\assoc.obj
+.\Debug\cond.obj
+.\Debug\dcasccff.obj
+.\Debug\dcasccfg.obj
+.\Debug\dccfenmp.obj
+.\Debug\dccfpcmp.obj
+.\Debug\dccfprmp.obj
+.\Debug\dccfrsmp.obj
+.\Debug\dccftsmp.obj
+.\Debug\dccfuidh.obj
+.\Debug\dcmlayer.obj
+.\Debug\dcmtrans.obj
+.\Debug\dcompat.obj
+.\Debug\dimcancl.obj
+.\Debug\dimcmd.obj
+.\Debug\dimdump.obj
+.\Debug\dimecho.obj
+.\Debug\dimfind.obj
+.\Debug\dimget.obj
+.\Debug\dimmove.obj
+.\Debug\dimse.obj
+.\Debug\dimstore.obj
+.\Debug\diutil.obj
+.\Debug\dul.obj
+.\Debug\dulconst.obj
+.\Debug\dulextra.obj
+.\Debug\dulfsm.obj
+.\Debug\dulparse.obj
+.\Debug\dulpres.obj
+.\Debug\extneg.obj
+.\Debug\lst.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP83.tmp"
+
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: dcmwlm - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP84.tmp" with contents
+[
+/nologo /MDd /W3 /GR /GX /Zi /Od /I "..\..\..\config\include" /I "..\..\..\dcmwlm\include" /I "..\..\..\ofstd\include" /I "..\..\..\dcmdata\include" /I "..\..\..\dcmnet\include" /D "_DEBUG" /D "WIN32" /D "_LIB" /D "_WINDOWS" /D "_MBCS" /D "_REENTRANT" /D CMAKE_INTDIR=\"Debug\" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /Zm1000  /GZ  /TP /c 
+"E:\Panasee2.3.1.252\DCMTK\dcmwlm\libsrc\wlds.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmwlm\libsrc\wldsfs.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmwlm\libsrc\wlfsim.cxx"
+"E:\Panasee2.3.1.252\DCMTK\dcmwlm\libsrc\wlmactmg.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP84.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP85.bat" with contents
+[
+@echo off
+"D:\Program Files\CMake 2.8\bin\cmake.exe" -E make_directory E:/DcmTK/dcmtk-3.5.4/lib/Debug
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP85.bat"
+Compiling...
+wlds.cxx
+wldsfs.cxx
+wlfsim.cxx
+wlmactmg.cxx
+Generating Code...
+Creating command line "link.exe -lib /nologo /out:"..\..\..\lib\Debug\dcmwlm.lib"  .\Debug\wlds.obj .\Debug\wldsfs.obj .\Debug\wlfsim.obj .\Debug\wlmactmg.obj "
+
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: ofstd - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP86.tmp" with contents
+[
+/nologo /MDd /W3 /GR /GX /Zi /Od /I "..\..\..\config\include" /I "..\..\..\ofstd\include" /D "_DEBUG" /D "WIN32" /D "_LIB" /D "_WINDOWS" /D "_MBCS" /D "_REENTRANT" /D CMAKE_INTDIR=\"Debug\" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /Zm1000  /GZ  /TP /c 
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofcmdln.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofconapp.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofcond.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofconfig.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofconsol.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofcrc32.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofdate.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofdatime.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\offname.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\oflist.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\oflogfil.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofstd.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofstring.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\ofthread.cxx"
+"E:\Panasee2.3.1.252\DCMTK\ofstd\libsrc\oftime.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP86.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP87.bat" with contents
+[
+@echo off
+"D:\Program Files\CMake 2.8\bin\cmake.exe" -E make_directory E:/DcmTK/dcmtk-3.5.4/lib/Debug
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP87.bat"
+Compiling...
+ofcmdln.cxx
+ofconapp.cxx
+ofcond.cxx
+ofconfig.cxx
+ofconsol.cxx
+ofcrc32.cxx
+ofdate.cxx
+ofdatime.cxx
+offname.cxx
+oflist.cxx
+oflogfil.cxx
+ofstd.cxx
+ofstring.cxx
+ofthread.cxx
+oftime.cxx
+Generating Code...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP88.tmp" with contents
+[
+/nologo /out:"..\..\..\lib\Debug\ofstd.lib" 
+.\Debug\ofcmdln.obj
+.\Debug\ofconapp.obj
+.\Debug\ofcond.obj
+.\Debug\ofconfig.obj
+.\Debug\ofconsol.obj
+.\Debug\ofcrc32.obj
+.\Debug\ofdate.obj
+.\Debug\ofdatime.obj
+.\Debug\offname.obj
+.\Debug\oflist.obj
+.\Debug\oflogfil.obj
+.\Debug\ofstd.obj
+.\Debug\ofstring.obj
+.\Debug\ofthread.obj
+.\Debug\oftime.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP88.tmp"
+
+<h3>Output Window</h3>
+Creating library...
+<h3>
+--------------------Configuration: storescp - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP89.tmp" with contents
+[
+/nologo /MDd /W3 /GR /GX /Zi /Od /I "..\..\..\config\include" /I "..\..\..\dcmnet\include" /I "..\..\..\ofstd\include" /I "..\..\..\dcmdata\include" /I "..\..\..\dcmtls\include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_WINDOWS" /D "_MBCS" /D "_REENTRANT" /D CMAKE_INTDIR=\"Debug\" /Fo"Debug/" /Fd"Debug/" /FD /GZ /Zm1000 /GZ  /TP /c 
+"E:\Panasee2.3.1.252\DCMTK\dcmnet\apps\storescp.cxx"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP89.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8A.tmp" with contents
+[
+netapi32.lib wsock32.lib ..\..\..\lib\Debug\ofstd.lib ..\..\..\lib\Debug\dcmdata.lib ..\..\..\lib\Debug\dcmnet.lib ..\..\..\lib\Debug\dcmtls.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /version:0.0 /stack:0x989680 /subsystem:console /incremental:yes /pdb:"..\..\..\bin\Debug/storescp.pdb" /debug /machine:I386 /out:"..\..\..\bin\Debug/storescp.exe" /implib:"..\..\..\bin\Debug\storescp.lib" /pdbtype:sept /libpath:"..\.\Debug" /libpath:".." /libpath:"..\..\ofstd\.\Debug" /libpath:"..\..\ofstd" /libpath:"..\..\dcmdata\.\Debug" /libpath:"..\..\dcmdata" /libpath:"..\..\dcmtls\.\Debug" /libpath:"..\..\dcmtls" /libpath:"..\..\..\lib\Debug\.\Debug" /libpath:"..\..\..\lib\Debug" /IGNORE:4089 /machine:X86 
+.\Debug\storescp.obj
+\Panasee2.3.1.252\DCMTK\lib\Debug\dcmdata.lib
+\Panasee2.3.1.252\DCMTK\lib\Debug\dcmnet.lib
+\Panasee2.3.1.252\DCMTK\lib\Debug\dcmwlm.lib
+\Panasee2.3.1.252\DCMTK\lib\Debug\ofstd.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP8A.tmp"
+<h3>Output Window</h3>
+Compiling...
+storescp.cxx
+E:\Panasee2.3.1.252\DCMTK\dcmnet\apps\storescp.cxx(93) : warning C4273: 'mktemp' : inconsistent dll linkage.  dllexport assumed.
+Linking...
+
+
+
+<h3>Results</h3>
+storescp.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

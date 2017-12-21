@@ -1,0 +1,157 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImagePlus - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\Include\vtk" /I "..\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /D "_MBCS" /D "_AFXEXT" /D "_BUILD_IMAGEPLUS_DLL" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Software\PANASEE2.3\ImagePlus\vtkDicom\DcmAppHelper.cpp"
+"D:\Software\PANASEE2.3\ImagePlus\vtkDicom\DcmParser.cpp"
+"D:\Software\PANASEE2.3\ImagePlus\vtkDicom\DcmReader.cpp"
+"D:\Software\PANASEE2.3\ImagePlus\ImageConvertor.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F.bat" with contents
+[
+@echo off
+..\vcVersion ImagePlus
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP3F.bat"
+Compiling...
+Skipping... (no relevant changes detected)
+DcmAppHelper.cpp
+DcmParser.cpp
+DcmReader.cpp
+ImageConvertor.cpp
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP40.tmp" with contents
+[
+MRISeriesDLLD.lib trimathD.lib opengl32.lib glu32.lib vtkexpat.lib vtksys.lib vtkCommon.lib vtkftgl.lib vtkzlib.lib vtkfreetype.lib vtkftgl.lib vtkMFC.lib vtkWidgets.lib vtkHybrid.lib vtkRendering.lib vtkio.lib vtkGraphics.lib vtkImaging.lib vtkpng.lib vtklibxml2.lib vtkjpeg.lib vtktiff.lib vtkFiltering.lib vtkDICOMParser.lib vtkVolumeRendering.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/ImagePlusD.pdb" /debug /machine:I386 /out:"Debug/ImagePlusD.dll" /implib:"Debug/ImagePlusD.lib" /pdbtype:sept /libpath:"..\LibD\vtk" /libpath:"..\LibD" 
+.\Debug\DcmAppHelper.obj
+.\Debug\DcmFile.obj
+.\Debug\DcmParser.obj
+.\Debug\DcmReader.obj
+.\Debug\ImageConvertor.obj
+.\Debug\ImagePlus.obj
+.\Debug\ImageReslice.obj
+.\Debug\StdAfx.obj
+.\Debug\ImagePlus.res
+\Software\PANASEE2.3\MRISeriesDLL\Debug\MRISeriesDLLD.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP40.tmp"
+
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/ImagePlus.bsc"  .\Debug\StdAfx.sbr .\Debug\DcmAppHelper.sbr .\Debug\DcmFile.sbr .\Debug\DcmParser.sbr .\Debug\DcmReader.sbr .\Debug\ImageConvertor.sbr .\Debug\ImagePlus.sbr .\Debug\ImageReslice.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP41.bat" with contents
+[
+@echo off
+copy imagePlus.h ..\include
+copy debug\imagePlusD.lib ..\LibD
+copy debug\imagePlusD.dll ..\binD
+copy imageReslice.h ..\include
+copy imageConvertor.h ..\include
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP41.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+<h3>
+--------------------Configuration: ImageDisplay - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+<h3>
+--------------------Configuration: MriCalibrationDll - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+<h3>
+--------------------Configuration: Tps - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Tps.res" /i "..\include\xtk" /d "_DEBUG" /d "_AFXDLL" "D:\Software\PANASEE2.3\Tps\Tps.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP42.bat" with contents
+[
+@echo off
+..\vcVersion tps
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP42.bat"
+Compiling resources...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP43.tmp" with contents
+[
+trimathD.lib opengl32.lib glu32.lib vtkexpat.lib vtksys.lib vtkCommon.lib vtkftgl.lib vtkzlib.lib vtkfreetype.lib vtkftgl.lib vtkMFC.lib vtkWidgets.lib vtkHybrid.lib vtkRendering.lib vtkio.lib vtkGraphics.lib vtkImaging.lib vtkpng.lib vtklibxml2.lib vtkjpeg.lib vtktiff.lib vtkFiltering.lib vtkDICOMParser.lib vtkVolumeRendering.lib ButtonSTD.lib MRISeriesDLLD.lib LicenseApiD.lib EncodeD.lib GetHardDeviceInfoD.lib Netapi32.lib LicenseLibD.lib Version.lib vImageD.lib MRICalibrationDllD.lib /nologo /stack:0x3d0900 /subsystem:windows /dll /incremental:yes /pdb:"Debug/TpsD.pdb" /debug /machine:I386 /out:"Debug/TpsD.dll" /implib:"Debug/TpsD.lib" /pdbtype:sept /libpath:"..\libd" /libpath:"..\libd\vtk" 
+.\Debug\ConfigMgr.obj
+.\Debug\ControlDlg.obj
+.\Debug\CREDITSTATIC.OBJ
+.\Debug\CustomItems.obj
+.\Debug\DisplayDlg.obj
+.\Debug\DlgAutoTrace.obj
+.\Debug\DoseDistribute.obj
+.\Debug\EvaluateDlg.obj
+.\Debug\ExtendVTKClass.obj
+.\Debug\GalilIceBallDistribute.obj
+.\Debug\GlobalManager.obj
+.\Debug\IceBallDistribute.obj
+.\Debug\MeshWriter.obj
+.\Debug\Modal.obj
+.\Debug\ModalContour.obj
+.\Debug\ModalDrag.obj
+.\Debug\ModalPropDlg.obj
+.\Debug\ModalSeg.obj
+.\Debug\ModalVolume.obj
+.\Debug\MPRView.obj
+.\Debug\OleDropTargetEx.obj
+.\Debug\Points2Mesh.obj
+.\Debug\ProbeControlDlg.obj
+.\Debug\ProbePropDlg.obj
+.\Debug\Prop3DTree.obj
+.\Debug\SaveActor2Obj.obj
+.\Debug\StdAfx.obj
+.\Debug\Tps.obj
+.\Debug\TPS2DView.obj
+.\Debug\TPS3DView.obj
+.\Debug\TpsCryoProbe.obj
+.\Debug\TPSFrmMgr.obj
+.\Debug\TpsTool.obj
+.\Debug\TracerPropDlg.obj
+.\Debug\Volume.obj
+.\Debug\vtkPowerCrustSurfaceReconstruction.obj
+.\Debug\Tps.res
+\Software\PANASEE2.3\MRISeriesDLL\Debug\MRISeriesDLLD.lib
+\Software\PANASEE2.3\PanaSkin\Debug\PanaSkinD.lib
+\Software\PANASEE2.3\TriMath\Debug\trimathD.lib
+\Software\PANASEE2.3\UIUtilDll\Debug\UIUtilDllD.lib
+\Software\PANASEE2.3\vImage\Debug\vImageD.lib
+\Software\PANASEE2.3\MriCalibrationDll\Debug\MriCalibrationDllD.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP43.tmp"
+
+<h3>Output Window</h3>
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP44.bat" with contents
+[
+@echo off
+copy debug\TpsD.dll ..\binD
+copy TpsFrmMgr.h ..\include
+copy debug\TpsD.lib ..\libD
+]
+Creating command line "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP44.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+TpsD.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

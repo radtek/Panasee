@@ -1,0 +1,73 @@
+
+
+class	BufferSpace
+	{
+	public:
+		UINT			BufferSize;
+		UINT		Index;
+		BOOL		isTemp;
+		BYTE		*Data;
+	
+				BufferSpace(UINT);
+				BufferSpace();
+				~BufferSpace();
+	};
+
+class	Buffer
+	{
+	protected:
+
+	UINT					BreakSize;
+	UINT					InEndian;
+	UINT					OutEndian;
+//	INT						InSize;
+//	INT						OutSize;
+	UINT						InSize;
+	UINT						OutSize;
+	Array<BufferSpace*>		Incoming;
+	Array<BufferSpace*>		Outgoing;
+
+	public:
+		BOOL		ReadBlock();
+		BOOL		Poll();
+	public:
+		BOOL		SetBreakSize(UINT);
+		BOOL		SetIncomingEndian(UINT);
+		BOOL		SetOutgoingEndian(UINT);
+		inline	UINT		GetIncomingEndian()	{ return ( InEndian ); };
+		inline	UINT		GetOutgoingEndian()	{ return ( OutEndian ); };
+					Buffer();
+		virtual		~Buffer();		
+		Buffer	&	operator			>>	(BYTE	&);
+		Buffer	&	operator			>>	(UINT16	&);
+		Buffer	&	operator			>>	(UINT32	&);
+		inline	Buffer	&	operator	>>	(char	&x)
+			{ return ( (*this)>>(BYTE &) x); };
+		inline	Buffer	&	operator	>>	(INT16	&x)
+			{ return ( (*this)>>(UINT16 &) x); };
+		inline	Buffer	&	operator	>>	(INT32	&x)
+			{ return ( (*this)>>(UINT32 &) x); };
+
+		Buffer	&	operator			<<	(BYTE	&);
+		Buffer	&	operator			<<	(UINT16	&);
+		Buffer	&	operator			<<	(UINT32	&);
+		inline	Buffer	&	operator	<<	(char	&x)
+			{ return ( (*this)<<(BYTE &) x); };
+		inline	Buffer	&	operator	<<	(INT16	&x)
+			{ return ( (*this)<<(UINT16 &) x); };
+		inline	Buffer	&	operator	<<	(INT32	&x)
+			{ return ( (*this)<<(UINT32 &) x); };
+
+		inline	UINT		GetSize()	{ return ( InSize ); };
+		BOOL		Flush();
+		BOOL		Flush(UINT	Bytes);
+		BOOL		Flush(BYTE* lpDcm,int& nLength);
+		BOOL		Kill(UINT);
+		BOOL		Read(BYTE *, UINT);
+		BOOL		Write(BYTE *, UINT);
+		BOOL		Fill(UINT);
+		virtual	INT			ReadBinary(BYTE	*, UINT)	=	0;
+		virtual	BOOL		SendBinary(BYTE	*, UINT)	=	0;
+
+	};
+
